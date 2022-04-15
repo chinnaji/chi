@@ -1,5 +1,4 @@
 import React from "react";
-import bg from "../../images/bg.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import me from "../../images/me.jpg";
@@ -39,12 +38,12 @@ function Hero() {
               A web Developer.
             </h1>
             <p className="text-zinc-500 dark:text-zinc-50 text-sm mt-5 text-center lg:text-left">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-              blanditiis ipsa ducimus laborum dolor? Totam nostrum fugit, culpa
+              I specializing in building (and occasionally designing)
+              exceptional digital experiences 🖥😁.
             </p>
             <div>
               <Link href="#contact" passHref>
-                <button className=" mx-auto lg:mx-0 flex px-7 text-sm py-3  my-6 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
+                <button className=" mx-auto lg:mx-0 flex px-7 text-sm py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Contact Me</span>
                   {/* <span>
                   <BsArrowRightShort className="text-2xl" />

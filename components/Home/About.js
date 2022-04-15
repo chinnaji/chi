@@ -1,5 +1,4 @@
 import React from "react";
-import bg from "../../images/bg.jpg";
 import Image from "next/image";
 import me from "../../images/me2.jpg";
 function About() {
@@ -26,17 +25,6 @@ function About() {
                 // placeholder="blur"
               />
             </div>
-
-            {/* <div className="w-16 md:h-32 absolute left-16  top-[-80px]  rounded-t-full rounded-b-none hidden lg:block">
-      <Image
-        src={heroImg1}
-        layout="responsive"
-        objectFit="cover"
-        alt="hero background image"
-        className="rounded-full"
-        // placeholder="blur"
-      />
-    </div> */}
           </div>
         </div>
 
@@ -61,7 +49,7 @@ function About() {
               contact me writing an email with your project idea.
             </p>
             <div>
-              <a href="#contact" passHref>
+              <a download href="https://bit.ly/chi_nnaji_resume">
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-3  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Download Resume</span>
                   {/* <span>

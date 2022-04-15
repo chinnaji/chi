@@ -18,11 +18,11 @@ function Navbar() {
     },
     {
       title: "About",
-      path: "#about",
+      path: "/#about",
     },
     {
-      title: "My works",
-      path: "#works",
+      title: "Projects",
+      path: "/projects",
     },
     {
       title: "Blog",
@@ -30,7 +30,7 @@ function Navbar() {
     },
     {
       title: "Contact",
-      path: "#contact",
+      path: "/#contact",
     },
   ];
 
@@ -74,7 +74,7 @@ function Navbar() {
             <ul className="flex lg:flex-row ml-auto flex-col justify-center items-center h-full  bg-zinc-50 dark:bg-dark-600 text-zinc-600 dark:text-zinc-100">
               {navLinks.map((navLink) => (
                 <li
-                  className="hover:text-lime-500 flex flex-col items-center text-sm  px-4 py-2 my-8 lg:my-1 font-medium  lg:capitalize uppercase"
+                  className="hover:text-lime-500 flex flex-col items-center text-sm  px-4 py-2 my-4 lg:my-1 font-medium  lg:capitalize uppercase"
                   onClick={() => setIsSidebar(false)}
                   key={navLink.title}
                 >
