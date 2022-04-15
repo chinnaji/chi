@@ -28,7 +28,7 @@ function error() {
             Sorry about that! Please visit our hompage to get where you need to
             go.
           </p>
-          <Link href="/">
+          <Link href="/" passHref>
             <button className="w-full lg:w-auto my-4 rounded-md px-1 sm:px-16 py-5 bg-lime-500 text-white hover:bg-lime-700 focus:outline-none focus:ring-2 focus:ring-lime-700 focus:ring-opacity-50">
               Go back to Homepage
             </button>
