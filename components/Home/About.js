@@ -30,7 +30,6 @@ function About() {
 
         <div className="order-first md:order-last w-full lg:w-1/2 flex  justify-center items-center">
           <div>
-            {/* I'm Nnaji Chibuike, Frontend Developer & Designer from Lagos State, Nigeria. */}
             <h1 className=" text-center lg:text-left font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl max-w-xl lg:mt-0 mt-24 dark:text-zinc-100">
               I&apos;m Nnaji Chibuike,
               <br />{" "}

@@ -15,7 +15,7 @@ function App({ Component, pageProps }) {
   } else {
     return (
       <>
-        <ThemeProvider attribute="class" enableSystem={false}>
+        <ThemeProvider attribute="className" enableSystem={false}>
           <MainLayout>
             <Component {...pageProps} />
           </MainLayout>

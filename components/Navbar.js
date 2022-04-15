@@ -88,7 +88,7 @@ function Navbar() {
             {/* <div>
               <span
                 onClick={() => setTheme(theme == "light" ? "dark" : "light")}
-                class="w-9 h-9 bg-gray-200 text-zinc-600 dark:text-zinc-100 rounded-lg dark:bg-gray-600 flex items-center justify-center hover:ring-2 ring-gray-300 transition-all cursor-pointer"
+                className="w-9 h-9 bg-gray-200 text-zinc-600 dark:text-zinc-100 rounded-lg dark:bg-gray-600 flex items-center justify-center hover:ring-2 ring-gray-300 transition-all cursor-pointer"
               >
                 {isMounted ? (
                   <>
@@ -104,7 +104,7 @@ function Navbar() {
             {/* <div>
               <span
                 onClick={() => setTheme(theme == "light" ? "dark" : "light")}
-                class="w-9 h-9 bg-gray-200 text-zinc-600 dark:text-zinc-100 rounded-lg dark:bg-gray-600 flex items-center justify-center hover:ring-2 ring-gray-300 transition-all cursor-pointer"
+                className="w-9 h-9 bg-gray-200 text-zinc-600 dark:text-zinc-100 rounded-lg dark:bg-gray-600 flex items-center justify-center hover:ring-2 ring-gray-300 transition-all cursor-pointer"
               >
                 {isMounted ? (
                   <>
