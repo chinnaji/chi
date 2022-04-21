@@ -82,10 +82,10 @@ function Hero() {
         </div>
       </div>
       {/* blur items */}
-      <div className="blur-[90px] md:w-32 md:h-32 w-16 h-16 rounded-full bg-lime-500  fixed top-[130px] left-10"></div>
+      <div className="blur-[90px] md:w-32 md:h-32 w-16 h-16 rounded-full bg-lime-500  absolute top-[130px] left-10"></div>
       {/* <div className="blur-[130px] opacity-30 md:w-32 md:h-32 w-16 h-16 rounded-full bg-yellow-500  fixed top-[130px] left-10"></div> */}
-      <div className="blur-[90px] md:w-32 md:h-32 w-16 h-16 rounded-full bg-lime-500  fixed bottom-[130px] right-10"></div>
-      <div className="blur-[120px] md:w-32 md:h-32 w-16 h-16 rounded-full bg-lime-500  fixed bottom-[130px] right-[40%]"></div>
+      <div className="blur-[90px] md:w-32 md:h-32 w-16 h-16 rounded-full bg-lime-500  absolute bottom-[130px] right-10"></div>
+      {/* <div className="blur-[120px] md:w-32 md:h-32 w-16 h-16 rounded-full bg-lime-500  fixed bottom-[130px] right-[40%]"></div> */}
     </section>
   );
 }
