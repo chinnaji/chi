@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Chi_Dev Portfolio"
+        title="Chinnaji Portfolio"
         description="This is My portfolio shocasing my projects"
         canonical="https://www.canonical.ie/"
         openGraph={{
