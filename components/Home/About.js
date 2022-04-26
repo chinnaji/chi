@@ -48,7 +48,7 @@ function About() {
               Feel free to contact me writing an email with your project idea.
             </p>
             <div>
-              <a href="https://www.androidpill.com/wp-content/uploads/2022/04/nnaji_chibuike_resume.pdf">
+              <a href="https://shodexgarden.com/wp-content/uploads/2022/04/nnaji_chibuike_resume.pdf">
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-3  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Download Resume</span>
                   {/* <span>
