@@ -1,6 +1,8 @@
 import React from "react";
 import shodex_garden from "../../images/shodex_garden.png";
 import portfolio from "../../images/portfolio.png";
+import androidpillNew from "../../images/androidpill.png";
+import moviemon from "../../images/moviemon.png";
 import Image from "next/image";
 import Link from "next/link";
 function Projects() {
@@ -8,27 +10,34 @@ function Projects() {
     {
       img: shodex_garden,
       url: "/projects/#shodex_garden",
+      text: "Shodex Garden",
+    },
+
+    {
+      img: androidpillNew,
+      url: "/projects/#androidpill",
+      text: "Androidpill",
     },
     {
-      img: portfolio,
-      url: "/projects/#portfolio",
+      img: moviemon,
+      url: "/projects/#moviemon",
+      text: "Moviemon",
     },
-    {
-      img: shodex_garden,
-      url: "/projects/#shodex_garden",
-    },
-    {
-      img: shodex_garden,
-      url: "/projects/#shodex_garden",
-    },
-    {
-      img: shodex_garden,
-      url: "/projects/#shodex_garden",
-    },
-    {
-      img: shodex_garden,
-      url: "/projects/#shodex_garden",
-    },
+    // {
+    //   img: portfolio,
+    //   url: "/projects/#portfolio",
+    //   text: "My Portfolio",
+    // },
+    // {
+    //   img: shodex_garden,
+    //   url: "/projects/#whatsapp_clone",
+    //   text: "Shodex Garden",
+    // },
+    // {
+    //   img: shodex_garden,
+    //   url: "/projects/#shodex_garden",
+    //   text: "Shodex Garden",
+    // },
   ];
   return (
     <section
@@ -41,12 +50,12 @@ function Projects() {
         </div>
         {projects.map((work, index) => (
           <div
-            className="w-full lg:w-1/3 md:1/2 text-center md:text-left p-2 "
+            className="w-full lg:w-1/3 md:1/2  md:text-left p-2  overflow-hidden"
             key={index}
           >
-            <section className="cursor-pointer border rounded border-zinc-400 ">
+            <section className="cursor-pointer my-5">
               <Link href={work.url} passHref>
-                <div className="rounded-lg   w-fit  relative ">
+                <a className="rounded-lg   w-fit  relative hover:text-lime-500 ">
                   <Image
                     src={work.img}
                     // layout="fill"
@@ -54,10 +63,14 @@ function Projects() {
                     // priority
                     loading="eager"
                     alt="my avatar"
-                    className="rounded z-[5]"
+                    className="rounded z-[5] "
                     placeholder="blur"
                   />
-                </div>
+                  <h3 className=" ml-2 my-3 text-xl">
+                    {" "}
+                    {index + 1}. {work.text}
+                  </h3>
+                </a>
               </Link>
             </section>
           </div>
@@ -65,12 +78,12 @@ function Projects() {
       </div>
       <div className="text-center w-full">
         <Link href="/projects" passHref>
-          <button className=" mb-12  mx-auto  flex px-10 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
+          <a className=" mb-12 mt-8 w-fit  mx-auto  flex px-10 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
             <span className="mr-2 font-semibold">See More</span>
             {/* <span>
             <BsArrowRightShort className="text-2xl" />
           </span> */}
-          </button>
+          </a>
         </Link>
       </div>
     </section>

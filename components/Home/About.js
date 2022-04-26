@@ -41,14 +41,14 @@ function About() {
               </span>
             </h1>
             <p className="text-zinc-500 dark:text-zinc-50 text-sm mt-8 text-center lg:text-left">
-              I have rich experience in web site design, development and
-              customization. Also I am good at html, css, javascript, React,
-              Next Js,Node Js,wordpress, Mongo DB, Tailwind and many more. I
-              love to talk with you about our unique approach. Feel free to
-              contact me writing an email with your project idea.
+              I have rich experience in web design and development using cool
+              tools like html, css, javascript, React, Typescript,Node
+              Js,wordpress, Mongo DB, Tailwind and many more. I love to talk
+              with you about my unique approach to solving web related problems.
+              Feel free to contact me writing an email with your project idea.
             </p>
             <div>
-              <a download href="https://bit.ly/chi_nnaji_resume">
+              <a href="https://www.androidpill.com/wp-content/uploads/2022/04/nnaji_chibuike_resume.pdf">
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-3  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Download Resume</span>
                   {/* <span>

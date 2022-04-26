@@ -38,17 +38,17 @@ function Hero() {
               A web Developer.
             </h1>
             <p className="text-zinc-500 dark:text-zinc-50 text-sm mt-5 text-center lg:text-left">
-              I specializing in building (and occasionally designing)
-              exceptional digital experiences 🖥😁.
+              I specialize in building (and occasionally designing) exceptional
+              digital experiences😁.
             </p>
             <div>
               <Link href="#contact" passHref>
-                <button className=" mx-auto lg:mx-0 flex px-7 text-sm py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
+                <a className="w-fit mx-auto lg:mx-0 flex px-7 text-sm py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Contact Me</span>
                   {/* <span>
                   <BsArrowRightShort className="text-2xl" />
                 </span> */}
-                </button>
+                </a>
               </Link>
             </div>
           </div>

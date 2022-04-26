@@ -54,7 +54,9 @@ function Navbar() {
               loading="eager"
             />
           </a> */}
-          <h1 className="text-lime-500 text-xl cursor-pointer">Chi_Nnaji</h1>
+          <a>
+            <h1 className="text-lime-500 text-xl cursor-pointer">Chi_Nnaji</h1>
+          </a>
         </Link>
 
         <div className="flex">
@@ -78,7 +80,9 @@ function Navbar() {
                   onClick={() => setIsSidebar(false)}
                   key={navLink.title}
                 >
-                  <Link href={navLink.path}>{navLink.title}</Link>
+                  <Link href={navLink.path}>
+                    <a>{navLink.title}</a>
+                  </Link>
                 </li>
               ))}
             </ul>
