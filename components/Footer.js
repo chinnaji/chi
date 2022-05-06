@@ -18,7 +18,7 @@ function Footer() {
           <a href="https://youtube.com/c/Androidpill">
             <BsYoutube className="text-xl mx-3" />
           </a>
-          <a href="https://github.com/Max1583">
+          <a href="https://github.com/chinnaji">
             <BsGithub className="text-xl mx-3" />
           </a>
           <a href="mailto:chibuikennaji306@gmail.com">
