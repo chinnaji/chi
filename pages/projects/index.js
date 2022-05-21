@@ -91,7 +91,7 @@ function index() {
                 />
               </div>
             </div>
-            <p className="text-red-600">This is still in development!</p>
+            {/* <p className="text-red-600">This is still in development!</p> */}
           </div>
         </div>
       </div>
