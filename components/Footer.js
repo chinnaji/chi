@@ -12,7 +12,7 @@ function Footer() {
     <footer className="w-full border-t dark:border-t-zinc-500  bg-zinc-50 dark:bg-dark-600 text-zinc-600 dark:text-zinc-100">
       <section className="px-2 py-8 max-w-5xl mx-auto ">
         <div className="flex justify-center items-center w-full">
-          <a href="https://twitter.com/@ChibuikeNnaji10">
+          <a href="https://twitter.com/ChibuikeNnaji100">
             <BsTwitter className="text-xl mx-3" />
           </a>
           <a href="https://youtube.com/c/Androidpill">
