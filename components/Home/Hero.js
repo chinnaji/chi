@@ -5,23 +5,6 @@ import me from "../../images/me.jpg";
 
 function Hero() {
   return (
-    // <section className="h-screen w-full relative">
-    //   <div className="absolute inset-0 z-10">
-    //     <div className="w-full h-screen relative  cursor-pointer block z-20">
-    //       <Image
-    //         src={bg}
-    //         layout="fill"
-    //         alt="shodex garden logo"
-    //         priority
-    //         loading="eager"
-    //         objectFit="cover"
-    //       />
-    //     </div>
-    //   </div>
-    //   <section className="overlay bg-transparent inset-0 w-full h-full absolute z-50 flex items-center justify-center text-white">
-    //     <TypeWriter />
-    //   </section>
-    // </section>
     <section
       className={`w-full md:h-[calc(100vh-4rem)] z-20 overflow-x-hidden bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 `}
     >
@@ -33,18 +16,18 @@ function Hero() {
               <br />{" "}
               <span className="block my-3">
                 I&apos;m
-                <span className="text-lime-500 "> Nnaji Chibuike, </span>
+                <span className="text-lime-500 "> Nnaji Chibuike </span>,
               </span>{" "}
-              A web Developer.
+              A Junior Developer.
             </h1>
-            <p className="text-zinc-500 dark:text-zinc-50 text-sm mt-5 text-center lg:text-left">
-              I specialize in building (and occasionally designing) exceptional
-              digital experiences😁.
+            <p className="text-zinc-500 text-base dark:text-zinc-50  mt-5 text-center lg:text-left">
+              I specialize in building (and occasionally designing) cool digital
+              experiences😁.
             </p>
             <div>
               <Link href="#contact" passHref>
-                <a className="w-fit mx-auto lg:mx-0 flex px-7 text-sm py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
-                  <span className="mr-2 font-semibold">Contact Me</span>
+                <a className="w-fit mx-auto lg:mx-0 flex px-7 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
+                  <span className="mr-2 font-semibold">Hire Me</span>
                   {/* <span>
                   <BsArrowRightShort className="text-2xl" />
                 </span> */}

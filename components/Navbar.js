@@ -24,10 +24,10 @@ function Navbar() {
       title: "Projects",
       path: "/projects",
     },
-    {
-      title: "Blog",
-      path: "/blog",
-    },
+    // {
+    //   title: "Blog",
+    //   path: "/blog",
+    // },
     {
       title: "Contact",
       path: "/#contact",

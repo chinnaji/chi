@@ -6,7 +6,10 @@ import shodex_before from "../../images/shodex_before.png";
 import shodex_after from "../../images/shodex_after.png";
 import portfolio from "../../images/portfolio.png";
 import moviemon from "../../images/moviemon.png";
+import pikchaw from "../../images/pikchaw.png";
 import androidpill from "../../images/androidpill.png";
+import pikchaw_screenshot1 from "../../images/pikchaw_screenshor (1).png";
+import pikchaw_screenshot2 from "../../images/pikchaw_screenshor (2).png";
 
 function index() {
   return (
@@ -49,7 +52,7 @@ function index() {
               needed a better way of handling ticket validation and a better
               interface in general .
             </p>
-            <h4 className="font-semibold underline mt-3">How i helped?</h4>
+            {/* <h4 className="font-semibold underline mt-3">How i helped?</h4>
 
             <p>
               - I helped implement a ticket system where customers get their
@@ -58,7 +61,7 @@ function index() {
             <p className="my-1">
               - I also implemented an admin page for authenticating and
               validating customers tickets
-            </p>
+            </p> */}
 
             <div className="flex flex-wrap my-10">
               <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
@@ -133,10 +136,74 @@ function index() {
           </div>
         </div>
       </div>
+      {/* pikchaw */}
+      <div className="max-w-6xl mx-auto" id="shodex_garden">
+        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
+          <div className="w-full md:w-1/2 mx-auto">
+            <div className="  w-full  h-full relative p-2 pb-0">
+              <Image
+                src={pikchaw}
+                //   layout="fill"
+                priority={true}
+                loading="eager"
+                alt="projects screen shots"
+                className="rounded "
+                placeholder="blur"
+              />
+              <div className=" rounded filter-none w-9/12 h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
+                {" "}
+              </div>{" "}
+            </div>
+          </div>
+          <div className="w-full  p-2">
+            <h2 className="text-3xl mb-4 mt-10 text-lime-500">3. Pikchaw</h2>
+            <p>
+              Ususally when designing, you tend to use images and finding the
+              right images can be a pain in the a** 😫, Introducing{" "}
+              <a href="http://Pikchaw.vercel.app" className="text-lime-500">
+                {" "}
+                Pikchaw
+              </a>
+              , A website where you can find images from your favorite sources,
+              all in one place 🤯🤭{" "}
+            </p>
+            <h4 className="text-center text-xl mt-12 mb-3 font-semibold">
+              SCREEN SHOTS
+            </h4>
+            <div className="flex flex-wrap mt-10">
+              <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
+                <Image
+                  src={pikchaw_screenshot2}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+              <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
+                <Image
+                  src={pikchaw_screenshot1}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            <p className="underline text-lime-500">
+              <a href="https://github.com/chinnaji/pikchaw">
+                View Source Code Here.
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
       {/*  */}
       {/*  */}
       {/* MovieMon */}
-      <div className="max-w-6xl mx-auto" id="moviemon">
+      {/* <div className="max-w-6xl mx-auto" id="moviemon">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
           <div className="w-full md:w-1/2 mx-auto">
             <div className="  w-full  h-full relative p-2 pb-0">
@@ -170,7 +237,7 @@ function index() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*  */}
       {/*  */}
     </main>

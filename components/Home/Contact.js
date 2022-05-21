@@ -74,7 +74,7 @@ function Contact() {
           className="px-2 my-5 max-w-6xl	 mx-auto flex flex-wrap "
         >
           <div className="w-full text-center pt-3 mb-6">
-            <h2 className="text-4xl">Contact Me</h2>
+            <h2 className="text-4xl">Let&apos;s Connect</h2>
           </div>
 
           <div className="w-full p-2 md:w-1/2">

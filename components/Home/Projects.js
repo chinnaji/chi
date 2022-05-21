@@ -3,6 +3,7 @@ import shodex_garden from "../../images/shodex_garden.png";
 import portfolio from "../../images/portfolio.png";
 import androidpillNew from "../../images/androidpill.png";
 import moviemon from "../../images/moviemon.png";
+import pikchaw from "../../images/pikchaw.png";
 import Image from "next/image";
 import Link from "next/link";
 function Projects() {
@@ -18,10 +19,15 @@ function Projects() {
       url: "/projects/#androidpill",
       text: "Androidpill",
     },
+    // {
+    //   img: moviemon,
+    //   url: "/projects/#moviemon",
+    //   text: "Moviemon",
+    // },
     {
-      img: moviemon,
-      url: "/projects/#moviemon",
-      text: "Moviemon",
+      img: pikchaw,
+      url: "/projects/#pikchaw",
+      text: "Pikchaw",
     },
     // {
     //   img: portfolio,
@@ -77,14 +83,18 @@ function Projects() {
         ))}
       </div>
       <div className="text-center w-full">
-        <Link href="/projects" passHref>
+        {/* <Link href="/projects" passHref>
           <a className=" mb-12 mt-8 w-fit  mx-auto  flex px-10 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
             <span className="mr-2 font-semibold">See More</span>
-            {/* <span>
-            <BsArrowRightShort className="text-2xl" />
-          </span> */}
+        
           </a>
-        </Link>
+        </Link> */}
+        <a
+          href="https://github.com/chinnaji?tab=repositories"
+          className=" mb-12 mt-8 w-fit  mx-auto  flex px-10 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
+        >
+          <span className="mr-2 font-semibold">See More</span>
+        </a>
       </div>
     </section>
   );
