@@ -47,10 +47,10 @@ function About() {
               Js,wordpress, Mongo DB, Tailwind and many more. I love to talk
               with you about my unique approach to solving web related problems.
               Feel free to contact me writing an email with your project idea. */}
-              Hello Again, Thanks for scrolling this far!! 🤗,I'm a Junior Front
-              End Developer currently based in Lagos, Nigeria 🐱‍👤. I describe
-              myself as a passionate developer who loves coding, the web
-              platform and dark mode interfaces🌑🕶
+              Hello Again, Thanks for scrolling this far!! 🤗,I&apos;m a Junior
+              Front End Developer currently based in Lagos, Nigeria 🐱‍👤. I
+              describe myself as a passionate developer who loves coding, the
+              web platform and dark mode interfaces🌑🕶
             </p>
             <p>
               I love exploring new technologies and staying on top of latest
