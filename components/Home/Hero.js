@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import me from "../../images/me.jpg";
-
+import { ImBriefcase } from "react-icons/im";
 function Hero() {
   return (
     <section
@@ -26,12 +26,12 @@ function Hero() {
             <div>
               <a
                 href="#contact"
-                className="w-fit mx-auto lg:mx-0 flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
+                className="w-fit mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
               >
                 <span className="mr-2 font-semibold">Hire Me</span>
-                {/* <span>
-                  <BsArrowRightShort className="text-2xl" />
-                </span> */}
+                <span>
+                  <ImBriefcase className="text-xl" />
+                </span>
               </a>
             </div>
           </div>
