@@ -137,7 +137,7 @@ function index() {
         </div>
       </div>
       {/* pikchaw */}
-      <div className="max-w-6xl mx-auto" id="shodex_garden">
+      <div className="max-w-6xl mx-auto" id="pikchaw">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
           <div className="w-full md:w-1/2 mx-auto">
             <div className="  w-full  h-full relative p-2 pb-0">
