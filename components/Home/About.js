@@ -58,7 +58,7 @@ function About() {
             </p>
             <p className="mt-3">Check out my resume for more 👇</p>
             <div>
-              <a href="https://shodexgarden.com/wp-content/uploads/2022/04/nnaji_chibuike_resume.pdf">
+              <a href="teal-joscelin-34.tiiny.site">
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-3  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Download Resume</span>
                   {/* <span>
