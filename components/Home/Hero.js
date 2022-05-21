@@ -25,7 +25,7 @@ function Hero() {
               experiences😁.
             </p>
             <div>
-              <Link href="#contact" passHref>
+              <Link href="#contact">
                 <a className="w-fit mx-auto lg:mx-0 flex px-7 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Hire Me</span>
                   {/* <span>
