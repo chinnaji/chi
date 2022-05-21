@@ -125,7 +125,7 @@ function Contact() {
             ></textarea>
           </div>
           <div className="w-full p-2 ">
-            <button className=" mb-12 mt-5 md:w-fit text-center w-full  mx-auto  flex justify-center items-center px-7 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
+            <button className=" mb-12 mt-5 md:w-fit text-center w-full  mx-auto  flex justify-center items-center px-12 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
               {isLoading ? (
                 <span className="mr-2 font-semibold">Loading...</span>
               ) : (
