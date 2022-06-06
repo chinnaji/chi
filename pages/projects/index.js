@@ -13,9 +13,9 @@ import androidpill from "../../images/androidpill.png";
 import pikchaw_screenshot1 from "../../images/pikchaw_screenshor (1).png";
 import pikchaw_screenshot2 from "../../images/pikchaw_screenshor (2).png";
 import ProjectsLink from "../../components/ProjectsLink";
-import { useRouter } from "next/router";
+
 function index() {
-  const router = useRouter();
+  
   return (
     <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0">
       <div className="w-full text-center pt-3 mb-2 mt-7">
