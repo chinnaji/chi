@@ -83,7 +83,7 @@ function Contact() {
               onChange={(e) => setName(e.target.value)}
               type="text"
               placeholder="Name"
-              className="w-full dark:bg-white bg-black bg-opacity-10 dark:bg-opacity-10 p-2 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
+              className="w-full dark:bg-white py-3 bg-black bg-opacity-10 dark:bg-opacity-10 p-2 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
             />
           </div>
           <div className="w-full p-2 md:w-1/2">
@@ -92,7 +92,7 @@ function Contact() {
               onChange={(e) => setEmail(e.target.value)}
               type="email"
               placeholder="Email"
-              className="w-full dark:bg-white bg-black bg-opacity-10 dark:bg-opacity-10 p-2 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
+              className="w-full dark:bg-white py-3 bg-black bg-opacity-10 dark:bg-opacity-10 p-2 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
             />
           </div>
           <div className="w-full p-2 md:w-1/2">
@@ -101,7 +101,7 @@ function Contact() {
               onChange={(e) => setPhoneNumber(e.target.value)}
               type="tel"
               placeholder="Phone Number"
-              className="w-full dark:bg-white bg-black bg-opacity-10 dark:bg-opacity-10 p-2 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
+              className="w-full dark:bg-white py-3 bg-black bg-opacity-10 dark:bg-opacity-10 p-2 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
             />
           </div>
           <div className="w-full p-2 md:w-1/2">
@@ -110,7 +110,7 @@ function Contact() {
               onChange={(e) => setSubject(e.target.value)}
               type="text"
               placeholder="Subject"
-              className="w-full p-2 dark:bg-white bg-black bg-opacity-10 dark:bg-opacity-10 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
+              className="w-full px-2 py-3 dark:bg-white bg-black bg-opacity-10 dark:bg-opacity-10 outline-none border-0 border-b-2 focus:border-b-lime-500 rounded border-b-zinc-400 dark:border-b-lime-600"
             />
           </div>
 
@@ -125,7 +125,7 @@ function Contact() {
             ></textarea>
           </div>
           <div className="w-full p-2 ">
-            <button className=" mb-12 mt-5 md:w-fit text-center w-full  mx-auto  flex justify-center items-center px-12 text-sm py-3   bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
+            <button className=" mb-12 mt-5 md:w-fit text-center w-full  mx-auto  flex justify-center items-center px-12 text-sm py-4  bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
               {isLoading ? (
                 <span className="mr-2 font-semibold">Loading...</span>
               ) : (

@@ -17,7 +17,7 @@ function Hero() {
                 I&apos;m
                 <span className="text-lime-500 "> Nnaji Chibuike </span>,
               </span>{" "}
-              A Junior Developer.
+              A Web Developer.
             </h1>
             <p className="text-zinc-500 text-base dark:text-zinc-50  mt-5 text-center lg:text-left">
               I specialize in building (and occasionally designing) cool digital

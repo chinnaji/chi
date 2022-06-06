@@ -4,19 +4,25 @@ import Link from "next/link";
 import shodex from "../../images/shodex_garden.png";
 import shodex_before from "../../images/shodex_before.png";
 import shodex_after from "../../images/shodex_after.png";
+import shodex_seo_after from "../../images/shodex_seo_screenshot.png";
+import shodex_seo_before from "../../images/shodex_seo_screenshot1.png";
 import portfolio from "../../images/portfolio.png";
 import moviemon from "../../images/moviemon.png";
 import pikchaw from "../../images/pikchaw.png";
 import androidpill from "../../images/androidpill.png";
 import pikchaw_screenshot1 from "../../images/pikchaw_screenshor (1).png";
 import pikchaw_screenshot2 from "../../images/pikchaw_screenshor (2).png";
-
+import { BsGithub } from "react-icons/bs";
+import { BiLinkExternal } from "react-icons/bi";
+import { useRouter } from "next/router";
 function index() {
+  const router = useRouter();
   return (
     <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0">
       <div className="w-full text-center pt-3 mb-2 mt-7">
         <h2 className="text-4xl">Recent Projects</h2>
       </div>
+
       {/* shodex garden */}
       <div className="max-w-6xl mx-auto" id="shodex_garden">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
@@ -37,7 +43,7 @@ function index() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-lime-500">
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
               1. Shodex Garden
             </h2>
             <p>
@@ -49,8 +55,8 @@ function index() {
                 Shodex Garden
               </a>{" "}
               is a place for relaxation, sight seeing and fun activities. They
-              needed a better way of handling ticket validation and a better
-              interface in general .
+              needed a better way of handling ticket sales, validation and a
+              user friendly interface in that .
             </p>
             {/* <h4 className="font-semibold underline mt-3">How i helped?</h4>
 
@@ -62,41 +68,89 @@ function index() {
               - I also implemented an admin page for authenticating and
               validating customers tickets
             </p> */}
-
-            <div className="flex flex-wrap my-10">
+            <ul className="list-disc lg:ml-10 my-5">
+              <li>Built using Next Js, Tailwind Css, Node Js, MongoDB.</li>
+              <li>Increased SEO performance by over 54% .</li>
+              <li>
+                Integrated{" "}
+                <a href=" https://paystack.com" className="text-lime-500">
+                  Paystack
+                </a>{" "}
+                payment solution for making secure payments online.
+              </li>
+              <li>Generate QR code tickets for each purchase.</li>
+              <li>
+                Utilized Nodemailer for emailing tickets and order summary to
+                customers.
+              </li>
+              <li>
+                Built an admin dashboard for managing and validating tickets.
+              </li>
+              <li>Implemented Admin Authentication (login & signup).</li>
+            </ul>
+            <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
+              Major Improvements in SEO Perfomance
+            </p>
+            <div className="flex flex-wrap my-10" id="shodex_screenshots">
               <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
                 <h4 className="text-center text-xl my-3 font-semibold">
-                  BEFORE
+                  <i>BEFORE</i>
                 </h4>
-                <Image
-                  src={shodex_before}
-                  //   layout="fill"
-                  loading="eager"
-                  alt="projects screen shots"
-                  className="rounded "
-                  placeholder="blur"
-                />
+                <Link href="/shodex_seo_screenshot1.png" passHref>
+                  <Image
+                    src={shodex_seo_before}
+                    //   layout="fill"
+                    loading="eager"
+                    alt="projects screen shots"
+                    className="rounded cursor-pointer"
+                    placeholder="blur "
+                  />
+                </Link>
               </div>
-              <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
-                <h4 className="text-center text-xl my-3 font-semibold w-full">
-                  AFTER
+              <div className="  w-full md:w-1/2  h-[300px] lg:h-[400px]  relative p-2 pb-0">
+                <h4 className="text-center text-xl lg:mt-3 mb-3 font-semibold w-full">
+                  <i> AFTER</i>
                 </h4>
-                <Image
-                  src={shodex_after}
-                  //   layout="fill"
-                  loading="eager"
-                  alt="projects screen shots"
-                  className="rounded "
-                  placeholder="blur"
-                />
+                <Link href="/shodex_seo_screenshot.png" passHref>
+                  <Image
+                    src={shodex_seo_after}
+                    //   layout="fill"
+                    loading="eager"
+                    alt="projects screen shots"
+                    className="rounded cursor-pointer"
+                    placeholder="blur"
+                  />
+                </Link>
               </div>
+
+              <p className="mt-10 flex items-center gap-x-5  justify-center w-full text-4xl">
+                <a
+                  href="https://github.com/chinnaji/shodexgarden"
+                  className="w-fit mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
+                >
+                  <span>
+                    <BsGithub className="text-xl" />
+                  </span>
+                  <span className="ml-2 font-semibold">Github</span>
+                </a>
+
+                <a
+                  href="https://shodexgarden.vercel.app"
+                  className="w-fit mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
+                >
+                  <span>
+                    <BiLinkExternal className="text-xl" />
+                  </span>
+                  <span className="ml-2 font-semibold">Live Page</span>
+                </a>
+              </p>
             </div>
-            {/* <p className="text-red-600">This is still in development!</p> */}
           </div>
         </div>
       </div>
       {/*  */}
       {/*  */}
+
       {/* Androidpill */}
       <div className="max-w-6xl mx-auto" id="androidpill">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
@@ -116,7 +170,7 @@ function index() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-lime-500">
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
               2. Androidpill
             </h2>
             <p>
@@ -133,9 +187,24 @@ function index() {
                 View Source Code Here.
               </a>
             </p>
+
+            <ul className="list-disc lg:ml-10 my-5">
+              <li>
+                {/* Built using Next Js, Wordpress, Graphql, Tailwind css */}
+                Optimized SEO for pages using Next Js Static Site Generation
+                (SSG) Technology.
+              </li>
+              <li>Used the wpGraphql plugin in making declarative queries.</li>
+              <li>
+                Utilized Google analytics and Google console for measuring
+                traffic and tracking performance issues.
+              </li>
+              <li>Integrated Progressive Web App technology.</li>
+            </ul>
           </div>
         </div>
       </div>
+
       {/* pikchaw */}
       <div className="max-w-6xl mx-auto" id="pikchaw">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
@@ -156,7 +225,7 @@ function index() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-lime-500">3. Pikchaw</h2>
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">3. Pikchaw</h2>
             <p>
               Ususally when designing, you tend to use images and finding the
               right images can be a pain in the a** 😫, Introducing{" "}
@@ -167,7 +236,7 @@ function index() {
               , A website where you can find images from your favorite sources,
               all in one place 🤯🤭{" "}
             </p>
-            <h4 className="text-center text-xl mt-12 mb-3 font-semibold">
+            <h4 className="text-center text-2xl mt-12 mb-3 font-semibold">
               SCREEN SHOTS
             </h4>
             <div className="flex flex-wrap mt-10">
@@ -181,7 +250,7 @@ function index() {
                   placeholder="blur"
                 />
               </div>
-              <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
+              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-32  h-[400px] relative p-2 pb-0">
                 <Image
                   src={pikchaw_screenshot1}
                   //   layout="fill"
@@ -221,7 +290,7 @@ function index() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-lime-500">3. Moviemon</h2>
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">3. Moviemon</h2>
             <p>
               <a href="http://moviemon.vercel.app" className="text-lime-500">
                 {" "}
