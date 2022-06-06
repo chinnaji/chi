@@ -21,7 +21,7 @@ function ProjectsLink({ githubUrl, projectUrl }) {
         <span>
           <BiLinkExternal className="text-xl" />
         </span>
-        <span className="ml-2 font-semibold">Live Page</span>
+        <span className="ml-2 font-semibold">Live🕵️‍♂️</span>
       </a>
     </p>
   );
