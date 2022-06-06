@@ -199,7 +199,7 @@ function index() {
                   placeholder="blur"
                 />
 
-<Link/>
+</Link>
               </div>
               <div className="  w-full md:w-1/2 lg:-mt-0 -mt-24  h-[300px] relative p-2 pb-0">
      <Link href="/androidpill_metrics2.png" passHref>        
