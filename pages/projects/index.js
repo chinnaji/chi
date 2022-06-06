@@ -185,11 +185,12 @@ function index() {
             </ul>
 
             <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
-              Google Analytics Visitors Report
+              Google Analytics Report
             </p>
             <div className="flex flex-wrap mt-10">
               <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
-                <Image
+              <Link href="/androidpill_metrics1.png" passHref>
+  <Image
                   src={androidpill_metrics1}
                   //   layout="fill"
                   loading="eager"
@@ -197,9 +198,12 @@ function index() {
                   className="rounded "
                   placeholder="blur"
                 />
+
+<Link/>
               </div>
-              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-12  h-[300px] relative p-2 pb-0">
-                <Image
+              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-24  h-[300px] relative p-2 pb-0">
+     <Link href="/androidpill_metrics2.png" passHref>        
+   <Image
                   src={androidpill_metrics2}
                   //   layout="fill"
                   loading="eager"
@@ -207,6 +211,7 @@ function index() {
                   className="rounded "
                   placeholder="blur"
                 />
+</Link>
               </div>
             </div>
 
