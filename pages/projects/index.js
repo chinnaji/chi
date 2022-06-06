@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import shodex from "../../images/shodex_garden.png";
-import shodex_before from "../../images/shodex_before.png";
-import shodex_after from "../../images/shodex_after.png";
+import androidpill_metrics1 from "../../images/androidpill_metrics1.png";
+import androidpill_metrics2 from "../../images/androidpill_metrics2.png";
 import shodex_seo_after from "../../images/shodex_seo_screenshot.png";
 import shodex_seo_before from "../../images/shodex_seo_screenshot1.png";
 import portfolio from "../../images/portfolio.png";
@@ -12,8 +12,7 @@ import pikchaw from "../../images/pikchaw.png";
 import androidpill from "../../images/androidpill.png";
 import pikchaw_screenshot1 from "../../images/pikchaw_screenshor (1).png";
 import pikchaw_screenshot2 from "../../images/pikchaw_screenshor (2).png";
-import { BsGithub } from "react-icons/bs";
-import { BiLinkExternal } from "react-icons/bi";
+import ProjectsLink from "../../components/ProjectsLink";
 import { useRouter } from "next/router";
 function index() {
   const router = useRouter();
@@ -123,27 +122,10 @@ function index() {
                 </Link>
               </div>
 
-              <p className="mt-10 flex items-center gap-x-5  justify-center w-full text-4xl">
-                <a
-                  href="https://github.com/chinnaji/shodexgarden"
-                  className="w-fit mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
-                >
-                  <span>
-                    <BsGithub className="text-xl" />
-                  </span>
-                  <span className="ml-2 font-semibold">Github</span>
-                </a>
-
-                <a
-                  href="https://shodexgarden.vercel.app"
-                  className="w-fit mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
-                >
-                  <span>
-                    <BiLinkExternal className="text-xl" />
-                  </span>
-                  <span className="ml-2 font-semibold">Live Page</span>
-                </a>
-              </p>
+              <ProjectsLink
+                githubUrl="https://github.com/chinnaji/shodexgarden"
+                projectUrl="https://shodexgarden.vercel.app"
+              />
             </div>
           </div>
         </div>
@@ -201,6 +183,37 @@ function index() {
               </li>
               <li>Integrated Progressive Web App technology.</li>
             </ul>
+
+            <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
+              Google Analytics Visitors Report
+            </p>
+            <div className="flex flex-wrap mt-10">
+              <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
+                <Image
+                  src={androidpill_metrics1}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-12  h-[300px] relative p-2 pb-0">
+                <Image
+                  src={androidpill_metrics2}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+
+            <ProjectsLink
+              githubUrl="https://github.com/chinnaji/androidpill-wordpress"
+              projectUrl="https://www.androidpill.com"
+            />
           </div>
         </div>
       </div>
@@ -240,7 +253,7 @@ function index() {
               SCREEN SHOTS
             </h4>
             <div className="flex flex-wrap mt-10">
-              <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
+              <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
                 <Image
                   src={pikchaw_screenshot2}
                   //   layout="fill"
@@ -250,7 +263,7 @@ function index() {
                   placeholder="blur"
                 />
               </div>
-              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-32  h-[400px] relative p-2 pb-0">
+              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-12  h-[300px] relative p-2 pb-0">
                 <Image
                   src={pikchaw_screenshot1}
                   //   layout="fill"
@@ -261,11 +274,12 @@ function index() {
                 />
               </div>
             </div>
-            <p className="underline text-lime-500">
-              <a href="https://github.com/chinnaji/pikchaw">
-                View Source Code Here.
-              </a>
-            </p>
+            <div className="lg:-mt-5 -mt-16">
+              <ProjectsLink
+                githubUrl="https://github.com/chinnaji/pikchaw"
+                projectUrl="https://pikchaw.vercel.app"
+              />
+            </div>
           </div>
         </div>
       </div>
