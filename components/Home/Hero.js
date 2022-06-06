@@ -20,8 +20,8 @@ function Hero() {
               A Web Developer.
             </h1>
             <p className="text-zinc-500 text-base dark:text-zinc-50  mt-5 text-center lg:text-left">
-              I specialize in building (and occasionally designing) cool digital
-              experiences😁.
+              I an an enthusiastic developer currently focused on frontend web
+              development and giving users a better experience.
             </p>
             <div>
               <a
@@ -52,15 +52,15 @@ function Hero() {
             </div>
 
             {/* <div className="w-16 md:h-32 absolute left-16  top-[-80px]  rounded-t-full rounded-b-none hidden lg:block">
-            <Image
-              src={heroImg1}
-              layout="responsive"
-              objectFit="cover"
-              alt="hero background image"
-              className="rounded-full"
-              // placeholder="blur"
-            />
-          </div> */}
+              <Image
+                src={heroImg1}
+                layout="responsive"
+                objectFit="cover"
+                alt="hero background image"
+                className="rounded-full"
+                // placeholder="blur"
+              />
+            </div> */}
           </div>
         </div>
       </div>
