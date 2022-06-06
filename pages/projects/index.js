@@ -17,7 +17,7 @@ import ProjectsLink from "../../components/ProjectsLink";
 function index() {
   
   return (
-    <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0">
+    <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0 px-3">
       <div className="w-full text-center pt-3 mb-2 mt-7">
         <h2 className="text-4xl">Recent Projects</h2>
       </div>
@@ -164,11 +164,7 @@ function index() {
               better customizability and i have no regrets. i built it using
               Next Js, Tailwind and Graph Ql.
             </p>
-            <p className="underline my-3 text-lime-500">
-              <a href="https://github.com/chinnaji/androidpill-wordpress">
-                View Source Code Here.
-              </a>
-            </p>
+            
 
             <ul className="list-disc lg:ml-10 my-5">
               <li>
@@ -201,7 +197,7 @@ function index() {
 
 </Link>
               </div>
-              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-24  h-[300px] relative p-2 pb-0">
+              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-28  h-[300px] relative p-2 pb-0">
      <Link href="/androidpill_metrics2.png" passHref>        
    <Image
                   src={androidpill_metrics2}
@@ -255,7 +251,7 @@ function index() {
               all in one place 🤯🤭{" "}
             </p>
             <h4 className="text-center text-2xl mt-12 mb-3 font-semibold">
-              SCREEN SHOTS
+              SCREENSHOTS
             </h4>
             <div className="flex flex-wrap mt-10">
               <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
