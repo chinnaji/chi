@@ -8,7 +8,7 @@ function Hero() {
       className={`w-full md:h-[calc(100vh-4rem)] z-20 overflow-x-hidden bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 `}
     >
       <div className="max-w-[1200px] mx-auto  h-full flex flex-wrap px-5">
-        <div className="w-full lg:w-1/2 flex justify-center items-center">
+        <div className="z-30 w-full lg:w-1/2 flex justify-center items-center">
           <div>
             <h1 className=" text-center lg:text-left font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl max-w-xl lg:mt-0 mt-24 dark:text-zinc-100">
               Hello 👋,
@@ -26,7 +26,7 @@ function Hero() {
             <div>
               <a
                 href="#contact"
-                className="w-fit mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
+                className="w-fit  mx-auto lg:mx-0  items-center justify-center flex px-12 text-base py-3  my-6 lg:my-9 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in"
               >
                 <span className="mr-2 font-semibold">Hire Me</span>
                 <span>
@@ -45,8 +45,8 @@ function Hero() {
                 objectFit="cover"
                 priority
                 loading="eager"
-                alt="hmy avatar"
-                className=" "
+                alt="my avatar"
+                className="z-10"
                 placeholder="blur"
               />
             </div>
