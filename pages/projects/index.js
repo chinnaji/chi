@@ -15,17 +15,105 @@ import pikchaw_screenshot2 from "../../images/pikchaw_screenshor (2).png";
 import ProjectsLink from "../../components/ProjectsLink";
 
 function index() {
-  
   return (
-    <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0 px-3">
+    <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0 px-5">
       <div className="w-full text-center pt-3 mb-2 mt-7">
         <h2 className="text-4xl">Recent Projects</h2>
+      </div>
+
+      {/* Androidpill */}
+      <div className="max-w-6xl mx-auto" id="androidpill">
+        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
+          <div className="w-full lg:w-1/2 mx-auto">
+            <div className="  w-full  lg:h-full relative p-2 pb-0">
+              <Image
+                src={androidpill}
+                priority={true}
+                loading="eager"
+                alt="projects screen shots"
+                className="rounded "
+                placeholder="blur"
+              />
+              <div className=" rounded filter-none w-9/12 lg:h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
+                {" "}
+              </div>{" "}
+            </div>
+          </div>
+          <div className="w-full  p-2">
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
+              1. Androidpill
+            </h2>
+            <p>
+              <a href="http://androidpill.com" className="text-lime-500">
+                {" "}
+                Androidpill
+              </a>{" "}
+              is my personal gaming blog. I had to move to headless CMS for
+              better customizability and i have no regrets. i built it using
+              Next Js, Tailwind and Graph Ql.
+            </p>
+
+            <ul className="list-disc lg:ml-10 my-5">
+              <li>
+                {/* Built using Next Js, Wordpress, Graphql, Tailwind css */}
+                Optimized SEO for pages using Next Js Static Site Generation
+                (SSG) Technology.
+              </li>
+              <li>Used the wpGraphql plugin in making declarative queries.</li>
+              <li>
+                Utilized Google analytics and Google console for measuring
+                traffic and tracking performance issues.
+              </li>
+              <li>Integrated Progressive Web App technology.</li>
+            </ul>
+
+            <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
+              <i> Google Analytics Report</i>
+            </p>
+
+            <div
+              className="flex items-center flex-wrap my-10"
+              id="androidpill_metrics"
+            >
+              <div className="  w-full lg:w-1/2  lg:h-[250px] relative p-2 pb-0">
+                <Link href="/androidpill_metrics1.png" passHref>
+                  <Image
+                    src={androidpill_metrics1}
+                    //   layout="fill"
+                    loading="eager"
+                    alt="projects screen shots"
+                    className="rounded cursor-pointer"
+                    placeholder="blur "
+                  />
+                </Link>
+              </div>
+              <div className="  w-full lg:w-1/2   lg:mt-0  md:-mt-0 mt-7 lg:h-[250px]  relative p-2 pb-0">
+                <Link href="/androidpill_metrics2.png" passHref>
+                  <Image
+                    src={androidpill_metrics2}
+                    //   layout="fill"
+                    loading="eager"
+                    alt="projects screen shots"
+                    className="rounded cursor-pointer"
+                    placeholder="blur"
+                  />
+                </Link>
+              </div>
+            </div>
+            <div className="">
+              <ProjectsLink
+                githubUrl="https://github.com/chinnaji/androidpill-wordpress"
+                projectUrl="https://www.androidpill.com"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* shodex garden */}
       <div className="max-w-6xl mx-auto" id="shodex_garden">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
-          <div className="w-full md:w-1/2 mx-auto">
+          <div className="w-full lg:w-1/2 mx-auto">
             <div className="  w-full  h-full relative p-2 pb-0">
               <Image
                 src={shodex}
@@ -36,14 +124,14 @@ function index() {
                 className="rounded "
                 placeholder="blur"
               />
-              <div className=" rounded filter-none w-9/12 h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
+              {/* <div className=" rounded filter-none w-9/12  p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
                 {" "}
-              </div>{" "}
+              </div>{" "} */}
             </div>
           </div>
           <div className="w-full  p-2">
             <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
-              1. Shodex Garden
+              2. Shodex Garden
             </h2>
             <p>
               <a
@@ -88,11 +176,14 @@ function index() {
               <li>Implemented Admin Authentication (login & signup).</li>
             </ul>
             <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
-              Major Improvements in SEO Perfomance
+              <i>Major Improvements in SEO Perfomance</i>
             </p>
-            <div className="flex flex-wrap my-10" id="shodex_screenshots">
-              <div className="  w-full md:w-1/2  h-[400px] relative p-2 pb-0">
-                <h4 className="text-center text-xl my-3 font-semibold">
+            <div
+              className="flex items-center flex-wrap my-10"
+              id="shodex_screenshots"
+            >
+              <div className="  w-full lg:w-1/2  lg:h-[400px] relative p-2 pb-0">
+                <h4 className="text-center text-2xl my-3 font-semibold">
                   <i>BEFORE</i>
                 </h4>
                 <Link href="/shodex_seo_screenshot1.png" passHref>
@@ -106,8 +197,8 @@ function index() {
                   />
                 </Link>
               </div>
-              <div className="  w-full md:w-1/2  h-[300px] lg:h-[400px]  relative p-2 pb-0">
-                <h4 className="text-center text-xl lg:mt-3 mb-3 font-semibold w-full">
+              <div className="  w-full lg:w-1/2   lg:mt-0  md:-mt-0 mt-5 lg:h-[400px]  relative p-2 pb-0">
+                <h4 className="text-center text-2xl lg:mt-3 mb-3 font-semibold w-full">
                   <i> AFTER</i>
                 </h4>
                 <Link href="/shodex_seo_screenshot.png" passHref>
@@ -133,109 +224,11 @@ function index() {
       {/*  */}
       {/*  */}
 
-      {/* Androidpill */}
-      <div className="max-w-6xl mx-auto" id="androidpill">
-        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
-          <div className="w-full md:w-1/2 mx-auto">
-            <div className="  w-full  h-full relative p-2 pb-0">
-              <Image
-                src={androidpill}
-                priority={true}
-                loading="eager"
-                alt="projects screen shots"
-                className="rounded "
-                placeholder="blur"
-              />
-              <div className=" rounded filter-none w-9/12 h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
-                {" "}
-              </div>{" "}
-            </div>
-          </div>
-          <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
-              2. Androidpill
-            </h2>
-            <p>
-              <a href="http://androidpill.com" className="text-lime-500">
-                {" "}
-                Androidpill
-              </a>{" "}
-              is my personal gaming blog. I had to move to headless CMS for
-              better customizability and i have no regrets. i built it using
-              Next Js, Tailwind and Graph Ql.
-            </p>
-            
-
-            <ul className="list-disc lg:ml-10 my-5">
-              <li>
-                {/* Built using Next Js, Wordpress, Graphql, Tailwind css */}
-                Optimized SEO for pages using Next Js Static Site Generation
-                (SSG) Technology.
-              </li>
-              <li>Used the wpGraphql plugin in making declarative queries.</li>
-              <li>
-                Utilized Google analytics and Google console for measuring
-                traffic and tracking performance issues.
-              </li>
-              <li>Integrated Progressive Web App technology.</li>
-            </ul>
-
-            <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
-              Google Analytics Report
-            </p>
-            <div className="flex flex-wrap mt-10">
-              <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
-<<<<<<< Updated upstream
-              <Link href="/androidpill_metrics1.png" passHref>
-  <Image
-                  src={androidpill_metrics1}
-                  //   layout="fill"
-                  loading="eager"
-                  alt="projects screen shots"
-                  className="rounded "
-                  placeholder="blur"
-                />
-
-</Link>
-=======
-                <Link passHref href="/androidpill_metrics1.png">
-                  <Image
-                    src={androidpill_metrics1}
-                    //   layout="fill"
-                    loading="eager"
-                    alt="projects screen shots"
-                    className="rounded "
-                    placeholder="blur"
-                  />
-                </Link>
->>>>>>> Stashed changes
-              </div>
-              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-28  h-[300px] relative p-2 pb-0">
-     <Link href="/androidpill_metrics2.png" passHref>        
-   <Image
-                  src={androidpill_metrics2}
-                  //   layout="fill"
-                  loading="eager"
-                  alt="projects screen shots"
-                  className="rounded "
-                  placeholder="blur"
-                />
-</Link>
-              </div>
-            </div>
-
-            <ProjectsLink
-              githubUrl="https://github.com/chinnaji/androidpill-wordpress"
-              projectUrl="https://www.androidpill.com"
-            />
-          </div>
-        </div>
-      </div>
-
       {/* pikchaw */}
       <div className="max-w-6xl mx-auto" id="pikchaw">
-        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
-          <div className="w-full md:w-1/2 mx-auto">
+        {/* <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}> */}
+        <div className={`w-full py-10 my-10`}>
+          <div className="w-full lg:w-1/2 mx-auto">
             <div className="  w-full  h-full relative p-2 pb-0">
               <Image
                 src={pikchaw}
@@ -254,7 +247,7 @@ function index() {
           <div className="w-full  p-2">
             <h2 className="text-3xl mb-4 mt-10 text-zinc-100">3. Pikchaw</h2>
             <p>
-              Ususally when designing, you tend to use images and finding the
+              Ususally when designing, I tend to use images and finding the
               right images can be a pain in the a** 😫, Introducing{" "}
               <a href="http://Pikchaw.vercel.app" className="text-lime-500">
                 {" "}
@@ -263,11 +256,11 @@ function index() {
               , A website where you can find images from your favorite sources,
               all in one place 🤯🤭{" "}
             </p>
-            <h4 className="text-center text-2xl mt-12 mb-3 font-semibold">
+            <h4 className="text-center text-2xl mt-16 mb-3 font-semibold">
               SCREENSHOTS
             </h4>
-            <div className="flex flex-wrap mt-10">
-              <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
+            <div className="flex items-center flex-wrap mt-10">
+              <div className="  w-full lg:w-1/2  lg:h-[300px] relative p-2 pb-0">
                 <Image
                   src={pikchaw_screenshot2}
                   //   layout="fill"
@@ -277,7 +270,7 @@ function index() {
                   placeholder="blur"
                 />
               </div>
-              <div className="  w-full md:w-1/2 lg:-mt-0 -mt-12  h-[300px] relative p-2 pb-0">
+              <div className="  w-full lg:w-1/2  lg:mt-0 mt-3 lg:h-[300px] relative p-2 pb-0">
                 <Image
                   src={pikchaw_screenshot1}
                   //   layout="fill"
@@ -288,7 +281,7 @@ function index() {
                 />
               </div>
             </div>
-            <div className="lg:-mt-5 -mt-16">
+            <div className="">
               <ProjectsLink
                 githubUrl="https://github.com/chinnaji/pikchaw"
                 projectUrl="https://pikchaw.vercel.app"
