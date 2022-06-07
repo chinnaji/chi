@@ -16,6 +16,9 @@ export default async function handler(req, res) {
       tls: {
         rejectUnauthorized: false, //set to true in production
       },
+      logger: true,
+      debug: true,
+      ignoreTLS: true, // add this
     });
 
     let mailOptions = {
@@ -30,8 +33,8 @@ export default async function handler(req, res) {
 
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
-        console.log(error);
-        console.log(info);
+        console.log({ err: error });
+        // console.log({ info: info });
         return res.status(300).json({ success: false, error });
       } else {
         console.log("email sent");
@@ -39,7 +42,7 @@ export default async function handler(req, res) {
       }
     });
   } else {
-    return res.status(200).json({ response: "Invalid Route" });
+    return res.status(404).json({ response: "Invalid Route" });
   }
 
   // console.log(transporter.options.host);
