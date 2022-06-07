@@ -58,7 +58,10 @@ function About() {
             </p>
             <p className="mt-3">Check out my resume for more 👇</p>
             <div>
-              <a href="https://bit.ly/chiresume" target="blank">
+              <a
+                href="https://drive.google.com/file/d/1BAPQBuNgk2-1yiCB-3Jp2BPbWL1x_NjQ/view?usp=sharing"
+                target="blank"
+              >
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-4  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Download Resume</span>
                   {/* <span>
