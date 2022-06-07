@@ -185,6 +185,7 @@ function index() {
             </p>
             <div className="flex flex-wrap mt-10">
               <div className="  w-full md:w-1/2  h-[300px] relative p-2 pb-0">
+<<<<<<< Updated upstream
               <Link href="/androidpill_metrics1.png" passHref>
   <Image
                   src={androidpill_metrics1}
@@ -196,6 +197,18 @@ function index() {
                 />
 
 </Link>
+=======
+                <Link passHref href="/androidpill_metrics1.png">
+                  <Image
+                    src={androidpill_metrics1}
+                    //   layout="fill"
+                    loading="eager"
+                    alt="projects screen shots"
+                    className="rounded "
+                    placeholder="blur"
+                  />
+                </Link>
+>>>>>>> Stashed changes
               </div>
               <div className="  w-full md:w-1/2 lg:-mt-0 -mt-28  h-[300px] relative p-2 pb-0">
      <Link href="/androidpill_metrics2.png" passHref>        
