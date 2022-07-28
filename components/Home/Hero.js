@@ -14,7 +14,7 @@ import {
 
 function Hero() {
   return (
-    <section className="relative flex items-center justify-center p-5 min-h-[calc(100vh-5rem)]">
+    <section className="relative flex items-center justify-center mt-10 pt-24 p-5 min-h-[calc(100vh-10rem)] ">
       <div className="max-w-[800px]  text-center mx-auto text-zinc-100">
         <h1 className="text-6xl">Hello, I&apos;m Nnaji Chibuike,</h1>
         <h2 className="text-4xl mt-5 text-lime-500  ">A Software Engineer.</h2>

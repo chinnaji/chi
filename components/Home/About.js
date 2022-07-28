@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50  py-10`}
+      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-10`}
     >
       <div className="max-w-6xl	 mx-auto   h-full flex flex-wrap px-5">
         <div className="w-full lg:w-1/2 flex  justify-center items-center  md:-mt-0 ">
@@ -30,7 +30,7 @@ function About() {
 
         <div className="order-first md:order-last w-full lg:w-1/2 flex  justify-center items-center">
           <div>
-            <h1 className=" text-center lg:text-left font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl max-w-xl lg:mt-0 mt-24 dark:text-zinc-100">
+            <h1 className=" text-center md:text-left font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl max-w-xl lg:mt-0 mt-24 dark:text-zinc-100">
               {/* I&apos;m Nnaji Chibuike,
               <br />{" "}
               <span className="block mt-2">
@@ -52,11 +52,13 @@ function About() {
               myself as a passionate developer who loves accessible software
               products.🌑🕶
             </p>
-            <p>
+            <p className="md:text-left text-center">
               I love exploring new technologies and staying on top of latest
               trends. I love Javascript....obviously 🤪.
             </p>
-            <p className="mt-3">Check out my resume for more 👇</p>
+            <p className="mt-3 md:text-left text-center">
+              Check out my resume for more 👇
+            </p>
             <div>
               <a
                 href="https://drive.google.com/file/d/1sFj0AOYewqnLjjnGfRuraQ2oe1IfFTlv/view?usp=sharing"

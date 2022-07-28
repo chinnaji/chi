@@ -46,7 +46,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50  py-10`}
+      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50  md:mt-0 mt-12 py-10`}
     >
       {isSent ? (
         <section className="my-10 py-10  px-2 max-w-6xl	mx-auto flex flex-wrap flex-col justify-center items-center">

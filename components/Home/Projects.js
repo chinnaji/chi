@@ -48,7 +48,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50  py-10 mt-16`}
+      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50  py-5 mt-16`}
     >
       <div className="px-2 py-8 max-w-6xl	gay-y-5 mx-auto flex flex-wrap  ">
         <div className="w-full text-center pt-7 mb-10">

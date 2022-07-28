@@ -2,7 +2,7 @@ import React from "react";
 
 function TechStacks() {
   return (
-    <section className=" techStacks items-center justify-center my-28 p-3 lg:-mb-0 -mb-12 gap-5 flex fill-zinc-100 flex-wrap  max-w-[1200px] mx-auto">
+    <section className=" techStacks items-center justify-center py-28 p-3 lg:-mb-0 -mb-12 gap-5 flex fill-zinc-100 flex-wrap  max-w-[1200px] mx-auto">
       <h2 className="w-full text-center lg:text-5xl text-4xl mb-12 lg:mb-16  text-zinc-100">
         🧰 Languages and Tools:
       </h2>
