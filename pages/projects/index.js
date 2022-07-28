@@ -4,6 +4,7 @@ import Link from "next/link";
 import shodex from "../../images/shodex_garden.png";
 import androidpill_metrics1 from "../../images/androidpill_metrics1.png";
 import androidpill_metrics2 from "../../images/androidpill_metrics2.png";
+import androidpill_seo from "../../images/androidpill_seo.png";
 import shodex_seo_after from "../../images/shodex_seo_screenshot.png";
 import shodex_seo_before from "../../images/shodex_seo_screenshot1.png";
 import portfolio from "../../images/portfolio.png";
@@ -139,9 +140,9 @@ function index() {
               <li>Integrated Progressive Web App technology.</li>
             </ul>
 
-            <p className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
+            <h2 className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
               <i> Google Analytics Report</i>
-            </p>
+            </h2>
 
             <div
               className="flex items-center flex-wrap my-10"
@@ -159,6 +160,7 @@ function index() {
                   />
                 </Link>
               </div>
+
               <div className="  w-full lg:w-1/2   lg:mt-0  md:-mt-0 mt-7 lg:h-[250px]  relative p-2 pb-0">
                 <Link href="/androidpill_metrics2.png" passHref>
                   <Image
@@ -171,7 +173,24 @@ function index() {
                   />
                 </Link>
               </div>
+
+              <h2 className="text-3xl w-full text-center font-medium mt-24 mb-5 text-zinc-100">
+                <i> SEO Metrics Audit</i>
+              </h2>
+              <div className="  w-full  mx-auto mt-2  overflow-hidden  relative p-2 pb-0">
+                <Link href="/androidpill_seo.png" passHref>
+                  <Image
+                    src={androidpill_seo}
+                    //   layout="fill"
+                    loading="eager"
+                    alt="projects screen shots"
+                    className="rounded cursor-pointer"
+                    placeholder="blur"
+                  />
+                </Link>
+              </div>
             </div>
+
             <div className="">
               <ProjectsLink
                 githubUrl="https://github.com/chinnaji/androidpill-wordpress"
