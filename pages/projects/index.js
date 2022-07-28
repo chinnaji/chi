@@ -193,7 +193,7 @@ function index() {
 
             <div className="">
               <ProjectsLink
-                githubUrl="https://github.com/chinnaji/androidpill-wordpress"
+                githubUrl="https://github.com/chinnaji/Androidpill"
                 projectUrl="https://www.androidpill.com"
               />
             </div>
