@@ -9,9 +9,10 @@ function MainHeroPage() {
   return (
     <main className="overflow-x-hidden h-full">
       <Hero />
-      <About />
-      <TechStacks />
       <Projects />
+      <TechStacks />
+      <About />
+
       <Contact />
     </main>
   );
