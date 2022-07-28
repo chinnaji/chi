@@ -59,7 +59,7 @@ function index() {
                 Optimized SEO for pages using Next Js Static Site Generation
                 (SSG) Technology.
               </li>
-              <li>Used the wpGraphql plugin in making declarative queries.</li>
+              {/* <li>Used the wpGraphql plugin in making declarative queries.</li> */}
               <li>
                 Utilized Google analytics and Google console for measuring
                 traffic and tracking performance issues.
