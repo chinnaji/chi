@@ -5,10 +5,8 @@ import { FiMenu } from "react-icons/fi";
 import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import { useTheme } from "next-themes";
 
 function Navbar() {
-  const { theme, setTheme } = useTheme();
   const [isMounted, setIsMounted] = useState(false);
 
   const navLinks = [

@@ -7,7 +7,7 @@ import TechStacks from "./TechStacks";
 
 function MainHeroPage() {
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-hidden h-full">
       <Hero />
       <About />
       <TechStacks />

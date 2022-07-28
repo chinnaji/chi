@@ -140,6 +140,16 @@ function Contact() {
           </div>
         </form>
       )}
+
+      <p className="px-5 mt-10 max-w-[1000px] mx-auto text-center">
+        <i>
+          {" "}
+          “You mustn’t allow yourself to be chained to fate, to be ruled by your
+          genes. Human beings can choose the kind of life that they want to
+          live. What’s important is that you choose life… and then live.”{" "}
+        </i>{" "}
+        – <b>Metal Gear Solid</b>
+      </p>
     </section>
   );
 }

@@ -25,7 +25,7 @@ function Footer() {
           <a href="mailto:chibuikennaji306@gmail.com">
             <BsFillEnvelopeFill className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
-          <a href="www.linkedin.com/in/chinnaji">
+          <a href="https://www.linkedin.com/in/chinnaji">
             <BsLinkedin className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
         </div>

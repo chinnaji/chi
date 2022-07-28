@@ -47,10 +47,10 @@ function About() {
               Js,wordpress, Mongo DB, Tailwind and many more. I love to talk
               with you about my unique approach to solving web related problems.
               Feel free to contact me writing an email with your project idea. */}
-              Hello Again, Thanks for scrolling this far!! 🤗,I&apos;m a Junior
-              Front End Developer currently based in Lagos, Nigeria 🐱‍👤. I
-              describe myself as a passionate developer who loves coding, the
-              web platform and dark mode interfaces🌑🕶
+              Hello Again, Thanks for scrolling this far!! 🤗,I&apos;m a
+              Software Engineer currently based in Lagos, Nigeria🌳. I describe
+              myself as a passionate developer who loves accessible software
+              products.🌑🕶
             </p>
             <p>
               I love exploring new technologies and staying on top of latest
@@ -59,7 +59,7 @@ function About() {
             <p className="mt-3">Check out my resume for more 👇</p>
             <div>
               <a
-                href="https://drive.google.com/file/d/1BAPQBuNgk2-1yiCB-3Jp2BPbWL1x_NjQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1sFj0AOYewqnLjjnGfRuraQ2oe1IfFTlv/view?usp=sharing"
                 target="blank"
               >
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-4  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
