@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-10`}
+      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-20`}
     >
       <div className="max-w-6xl	 mx-auto   h-full flex flex-wrap px-5">
         <div className="w-full lg:w-1/2 flex  justify-center items-center  md:-mt-0 ">
