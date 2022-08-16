@@ -61,7 +61,7 @@ function About() {
             </p>
             <div>
               <a
-                href="https://drive.google.com/file/d/1sFj0AOYewqnLjjnGfRuraQ2oe1IfFTlv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1o5AGOxDNZ1-zLGCju7d1ANfG6GmO5up5/view?usp=sharing"
                 target="blank"
               >
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-4  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">

@@ -4,10 +4,16 @@ import portfolio from "../../images/portfolio.png";
 import androidpillNew from "../../images/androidpill.png";
 import moviemon from "../../images/moviemon.png";
 import pikchaw from "../../images/pikchaw.png";
+import grupr from "../../images/grupr.png";
 import Image from "next/image";
 import Link from "next/link";
 function Projects() {
   const projects = [
+    {
+      img: grupr,
+      url: "/projects/#grupr",
+      text: "Grupr",
+    },
     {
       img: androidpillNew,
       url: "/projects/#androidpill",
@@ -56,10 +62,10 @@ function Projects() {
         </div>
         {projects.map((work, index) => (
           <div
-            className="w-full lg:w-1/3 md:1/2  md:text-left p-2  overflow-hidden"
+            className="w-full  md:w-1/2  md:text-left md:p-5 p-3 hover:-mt-3 transition-all ease-linear duration-200  overflow-hidden"
             key={index}
           >
-            <section className="cursor-pointer my-5">
+            <section className="cursor-pointer my-10">
               <Link href={work.url} passHref>
                 <a className="rounded-lg   w-fit  relative hover:text-lime-500 ">
                   <Image
@@ -72,7 +78,7 @@ function Projects() {
                     className="rounded z-[5] "
                     placeholder="blur"
                   />
-                  <h3 className=" ml-2 my-3 text-2xl">
+                  <h3 className=" ml-2 my-5 text-3xl">
                     {" "}
                     {index + 1}. {work.text}
                   </h3>
