@@ -13,6 +13,9 @@ import pikchaw from "../../images/pikchaw.png";
 import androidpill from "../../images/androidpill.png";
 import pikchaw_screenshot1 from "../../images/pikchaw_screenshor (1).png";
 import pikchaw_screenshot2 from "../../images/pikchaw_screenshor (2).png";
+import grupr from "../../images/grupr.png";
+import gruprScreenshot from "../../images/grupr-screenshot.png";
+import gruprScreenshot2 from "../../images/grupr-screenshot2.png";
 import ProjectsLink from "../../components/ProjectsLink";
 import Head from "next/head";
 
@@ -20,7 +23,7 @@ function index() {
   return (
     <main className=" bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 m-0 px-5">
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
 
         <title>Nnaji Chibuike - Projects</title>
 
@@ -91,11 +94,11 @@ function index() {
       </Head>
 
       <div className="w-full text-center pt-3 mb-2 mt-7">
-        <h2 className="text-4xl">Recent Projects</h2>
+        <h2 className="text-4xl mt-10">Recent Projects</h2>
       </div>
 
       {/* Androidpill */}
-      <div className="max-w-6xl mx-auto" id="androidpill">
+      <div className="max-w-6xl mx-auto my-12" id="androidpill">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
           <div className="w-full lg:w-1/2 mx-auto">
             <div className="  w-full  lg:h-full relative p-2 pb-0">
@@ -201,8 +204,79 @@ function index() {
         </div>
       </div>
 
+      {/* grupr */}
+      <div className="max-w-6xl mx-auto my-12" id="grupr">
+        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
+          <div className="w-full lg:w-1/2 mx-auto">
+            <div className="  w-full  lg:h-full relative p-2 pb-0">
+              <Image
+                src={grupr}
+                priority={true}
+                loading="eager"
+                alt="projects screen shots"
+                className="rounded "
+                placeholder="blur"
+              />
+              <div className=" rounded filter-none w-9/12 lg:h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
+                {" "}
+              </div>{" "}
+            </div>
+          </div>
+          <div className="w-full  p-2">
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">2. Grupr.nl</h2>
+            <p>
+              <a href="http://grupr.nl" className="text-lime-500">
+                {" "}
+                Grupr
+              </a>{" "}
+              A url management software that helps share multiple url&apos;s as
+              one short link.built it using Next Js, Tailwind and Graph Ql.
+            </p>
+
+            <ul className="list-disc lg:ml-10 my-5">
+              <li>Integrated Firebase storage and authentication</li>
+              {/* <li>Used the wpGraphql plugin in making declarative queries.</li> */}
+              <li>Integrated Google Analytics for measuring Traction</li>
+              <li>Integrated Progressive Web App technology.</li>
+            </ul>
+
+            <h4 className="text-center text-2xl mt-16 mb-3 font-semibold">
+              SCREENSHOTS
+            </h4>
+            <div className="flex items-center flex-wrap mt-10">
+              <div className="  w-full lg:w-1/2  lg:h-[300px] relative p-2 pb-0">
+                <Image
+                  src={gruprScreenshot}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+              <div className="  w-full lg:w-1/2  lg:mt-0 mt-3 lg:h-[300px] relative p-2 pb-0">
+                <Image
+                  src={gruprScreenshot2}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            <div className="">
+              <ProjectsLink
+                githubUrl="https://github.com/chinnaji/grupr"
+                projectUrl="http://grupr.nl"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* shodex garden */}
-      <div className="max-w-6xl mx-auto" id="shodex_garden">
+      <div className="max-w-6xl mx-auto my-12" id="shodex_garden">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
           <div className="w-full lg:w-1/2 mx-auto">
             <div className="  w-full  h-full relative p-2 pb-0">
@@ -222,7 +296,7 @@ function index() {
           </div>
           <div className="w-full  p-2">
             <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
-              2. Shodex Garden
+              3. Shodex Garden
             </h2>
             <p>
               <a
@@ -236,16 +310,7 @@ function index() {
               needed a better way of handling ticket sales, validation and a
               user friendly interface in that .
             </p>
-            {/* <h4 className="font-semibold underline mt-3">How i helped?</h4>
 
-            <p>
-              - I helped implement a ticket system where customers get their
-              ticket delivered to them by e-mail in a QR code format.
-            </p>
-            <p className="my-1">
-              - I also implemented an admin page for authenticating and
-              validating customers tickets
-            </p> */}
             <ul className="list-disc lg:ml-10 my-5">
               <li>Built using Next Js, Tailwind Css, Node Js, MongoDB.</li>
               <li>Increased SEO performance by over 54% .</li>
@@ -316,7 +381,7 @@ function index() {
       {/*  */}
 
       {/* pikchaw */}
-      <div className="max-w-6xl mx-auto" id="pikchaw">
+      <div className="max-w-6xl mx-auto my-12" id="pikchaw">
         {/* <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}> */}
         <div className={`w-full py-10 my-10`}>
           <div className="w-full lg:w-1/2 mx-auto">
@@ -336,7 +401,7 @@ function index() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">3. Pikchaw</h2>
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">4. Pikchaw</h2>
             <p>
               Ususally when designing, I tend to use images and finding the
               right images can be a pain in the a** 😫, Introducing{" "}

@@ -35,7 +35,7 @@ export default function Home() {
         }}
       /> */}
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
 
         <title>Nnaji Chibuike -Software Developer</title>
 
