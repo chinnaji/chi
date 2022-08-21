@@ -20,6 +20,19 @@ function Projects() {
           move: 0,
         });
         sr().reveal(".projects", { delay: 400, interval: 50 });
+        sr().reveal(
+          ".project-title",
+          {
+            duration: 500,
+            scale: 1,
+            distance: "20px",
+            origin: "bottom",
+            reset: true,
+            easing: "ease-out",
+            viewFactor: 1,
+          },
+          75
+        );
       }
     }
     animate();
@@ -96,7 +109,7 @@ function Projects() {
                     className="rounded z-[5] "
                     placeholder="blur"
                   />
-                  <h3 className=" ml-2 my-5 text-3xl">
+                  <h3 className="project-title ml-2 my-5 text-3xl">
                     {" "}
                     {index + 1}. {work.text}
                   </h3>

@@ -1,14 +1,42 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import me from "../../images/me2.jpg";
 function About() {
+  const title = React.useRef(null);
+
+  useEffect(() => {
+    async function animate() {
+      if (title.current) {
+        const sr = (await import("scrollreveal")).default;
+        sr().reveal(title.current, {
+          duration: 700,
+          move: 0,
+        });
+        sr().reveal(".me", { delay: 700, origin: "left" });
+        sr().reveal(
+          ".about-content",
+          {
+            duration: 500,
+            scale: 1,
+            distance: "20px",
+            origin: "bottom",
+            reset: true,
+            easing: "ease-out",
+            viewFactor: 1,
+          },
+          75
+        );
+      }
+    }
+    animate();
+  }, []);
   return (
     <section
       id="about"
-      className={`w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-20`}
+      className={` w-full bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-20`}
     >
       <div className="max-w-6xl	 mx-auto   h-full flex flex-wrap px-5">
-        <div className="w-full lg:w-1/2 flex  justify-center items-center  md:-mt-0 ">
+        <div className="me w-full lg:w-1/2 flex  justify-center items-center  md:-mt-0 ">
           <div className="  w-fit rounded-lg relative ">
             <div className="rounded-lg  p-2 filter grayscale  lg:-mt-20 lg:w-[420px] w-80 lg:h-96 h-72 relative ">
               <div className=" filter-none w-9/12 h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
@@ -28,9 +56,12 @@ function About() {
           </div>
         </div>
 
-        <div className="order-first md:order-last w-full lg:w-1/2 flex  justify-center items-center">
+        <div className="about-content order-first md:order-last w-full lg:w-1/2 flex  justify-center items-center">
           <div>
-            <h1 className=" text-center md:text-left font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl max-w-xl lg:mt-0 mt-24 dark:text-zinc-100">
+            <h2
+              ref={title}
+              className="title text-center md:text-left font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl max-w-xl lg:mt-0 mt-24 dark:text-zinc-100"
+            >
               {/* I&apos;m Nnaji Chibuike,
               <br />{" "}
               <span className="block mt-2">
@@ -40,7 +71,7 @@ function About() {
                 from Lagos State, Nigeria.
               </span> */}
               About Me!
-            </h1>
+            </h2>
             <p className="text-zinc-500 dark:text-zinc-50 text-base  mb-3 mt-8 text-center lg:text-left">
               {/* I have rich experience in web design and development using cool
               tools like html, css, javascript, React, Typescript,Node
