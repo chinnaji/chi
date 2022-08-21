@@ -35,7 +35,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="relative flex items-center justify-center mt-10 pt-24 p-5 md:min-h-[calc(100vh-13rem)] min-h-[calc(100vh-17rem)] ">
+    <section className="relative flex items-center justify-center mt-10 pt-24 p-5 min-h-[calc(100vh-14rem)]">
       <div className="max-w-[800px]  text-center mx-auto text-zinc-100">
         <h1 ref={title} className="text-6xl">
           Hello, I&apos;m Nnaji Chibuike,
