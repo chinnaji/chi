@@ -9,6 +9,21 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Projects() {
+  const title = React.useRef(null);
+
+  useEffect(() => {
+    async function animate() {
+      if (title.current) {
+        const sr = (await import("scrollreveal")).default;
+        sr().reveal(title.current, {
+          duration: 700,
+          move: 0,
+        });
+        sr().reveal(".projects", { delay: 400, interval: 50 });
+      }
+    }
+    animate();
+  }, []);
   const projects = [
     {
       img: grupr,
@@ -59,14 +74,16 @@ function Projects() {
     >
       <div className="px-2 py-8 max-w-6xl	gay-y-5 mx-auto flex flex-wrap  ">
         <div className="w-full text-center pt-7 mb-10">
-          <h2 className="lg:text-5xl text-4xl">Featured Projects</h2>
+          <h2 className="lg:text-5xl text-4xl" ref={title}>
+            Featured Projects
+          </h2>
         </div>
         {projects.map((work, index) => (
           <div
-            className="w-full  md:w-1/2  md:text-left md:p-5 p-3 hover:-mt-3 transition-all ease-linear duration-200  overflow-hidden"
+            className="w-full  md:w-1/2  md:text-left md:p-5 p-3 hover:-mt-2 transition-all ease-linear duration-200  overflow-hidden"
             key={index}
           >
-            <section className="cursor-pointer my-10">
+            <section className="projects cursor-pointer my-10">
               <Link href={work.url} passHref>
                 <a className="rounded-lg   w-fit  relative hover:text-lime-500 ">
                   <Image
