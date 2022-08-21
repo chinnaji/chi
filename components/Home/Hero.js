@@ -37,10 +37,10 @@ function Hero() {
   return (
     <section className="relative flex items-center justify-center mt-10 pt-24 p-5 min-h-[calc(100vh-14rem)] ">
       <div className="max-w-[800px]  text-center mx-auto text-zinc-100">
-        <h1 ref={title} className="text-4xl md:text-6xl">
+        <h1 ref={title} className="text-6xl">
           Hello, I&apos;m Nnaji Chibuike,
         </h1>
-        <h2 className=" title2 text-2xl md:text-4xl mt-2 md:mt-5 text-lime-500  ">
+        <h2 className=" title2 text-3xl md:text-4xl mt-2 md:mt-5 text-lime-500  ">
           A Software Engineer.
         </h2>
 
