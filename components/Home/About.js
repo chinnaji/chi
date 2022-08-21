@@ -20,7 +20,7 @@ function About() {
             scale: 1,
             distance: "20px",
             origin: "bottom",
-            reset: true,
+            reset: false,
             easing: "ease-out",
             viewFactor: 1,
           },

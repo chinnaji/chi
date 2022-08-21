@@ -27,7 +27,7 @@ function Projects() {
             scale: 1,
             distance: "20px",
             origin: "bottom",
-            reset: true,
+            reset: false,
             easing: "ease-out",
             viewFactor: 1,
           },
@@ -54,31 +54,11 @@ function Projects() {
       text: "Shodex Garden",
     },
 
-    // {
-    //   img: moviemon,
-    //   url: "/projects/#moviemon",
-    //   text: "Moviemon",
-    // },
     {
       img: pikchaw,
       url: "/projects/#pikchaw",
       text: "Pikchaw",
     },
-    // {
-    //   img: portfolio,
-    //   url: "/projects/#portfolio",
-    //   text: "My Portfolio",
-    // },
-    // {
-    //   img: shodex_garden,
-    //   url: "/projects/#whatsapp_clone",
-    //   text: "Shodex Garden",
-    // },
-    // {
-    //   img: shodex_garden,
-    //   url: "/projects/#shodex_garden",
-    //   text: "Shodex Garden",
-    // },
   ];
   return (
     <section
