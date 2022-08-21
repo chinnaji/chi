@@ -14,19 +14,19 @@ function Footer() {
       <section className="px-2 py-8 max-w-5xl mx-auto ">
         <div className="flex justify-center items-center w-full">
           <a href="https://twitter.com/ChibuikeNnaji100">
-            <BsTwitter className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
+            <BsTwitter className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
           <a href="https://youtube.com/c/Androidpill">
-            <BsYoutube className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
+            <BsYoutube className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
           <a href="https://github.com/chinnaji">
-            <BsGithub className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
+            <BsGithub className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
           <a href="mailto:chibuikennaji306@gmail.com">
-            <BsFillEnvelopeFill className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
+            <BsFillEnvelopeFill className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
           <a href="https://www.linkedin.com/in/chinnaji">
-            <BsLinkedin className="text-3xl hover:text-lime-500  transition-all ease-in-out mx-3" />
+            <BsLinkedin className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
         </div>
         <div className="text-center text-sm mt-5">
