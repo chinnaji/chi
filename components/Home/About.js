@@ -80,8 +80,8 @@ function About() {
               Feel free to contact me writing an email with your project idea. */}
               Hello Again, Thanks for scrolling this far!! 🤗,I&apos;m a
               Software Engineer currently based in Lagos, Nigeria🌳. I describe
-              myself as a passionate developer who loves accessible software
-              products.🌑🕶
+              myself as a passionate developer who loves Building accessible
+              software products.🌑🕶
             </p>
             <p className="md:text-left text-center">
               I love exploring new technologies and staying on top of latest
@@ -92,7 +92,7 @@ function About() {
             </p>
             <div>
               <a
-                href="https://drive.google.com/file/d/1o5AGOxDNZ1-zLGCju7d1ANfG6GmO5up5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1c-eQD8Pg8qNYxqG4u-uMuJBz-bBXDmzC/view?usp=sharing"
                 target="blank"
               >
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-4  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">

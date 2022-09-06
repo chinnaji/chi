@@ -14,8 +14,11 @@ import androidpill from "../images/androidpill.png";
 import pikchaw_screenshot1 from "../images/pikchaw_screenshor (1).png";
 import pikchaw_screenshot2 from "../images/pikchaw_screenshor (2).png";
 import grupr from "../images/grupr.png";
+import mano from "../images/mano.png";
 import gruprScreenshot from "../images/grupr-screenshot.png";
 import gruprScreenshot2 from "../images/grupr-screenshot2.png";
+import manoScreenshot from "../images/mano-screenshot.png";
+import manoScreenshot2 from "../images/mano-screenshot2.png";
 import ProjectsLink from "../components/ProjectsLink";
 
 function ProjectsPage() {
@@ -359,7 +362,7 @@ function ProjectsPage() {
       {/* pikchaw */}
       <div className="max-w-6xl mx-auto my-12" id="pikchaw">
         {/* <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}> */}
-        <div className={`w-full py-10 my-10`}>
+        <div className={`border-b dark:border-b-zinc-500 w-full py-10 my-10`}>
           <div className="w-full lg:w-1/2 mx-auto">
             <div className="  w-full  h-full relative p-2 pb-0">
               <Image
@@ -419,6 +422,82 @@ function ProjectsPage() {
                 projectUrl="https://pikchaw.vercel.app"
               />
             </div>
+          </div>
+        </div>
+      </div>
+      {/* grupr */}
+      <div className="max-w-6xl mx-auto my-12" id="mano">
+        <div className={`w-full  py-10 my-10`}>
+          <div className="w-full lg:w-1/2 mx-auto">
+            <div className="  w-full  lg:h-full relative p-2 pb-0">
+              <Image
+                src={mano}
+                priority={true}
+                loading="eager"
+                alt="projects screen shots"
+                className="rounded "
+                placeholder="blur"
+              />
+              <div className=" rounded filter-none w-9/12 lg:h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
+                {" "}
+              </div>{" "}
+            </div>
+          </div>
+          <div className="w-full  p-2">
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">5. Mano</h2>
+            <p>
+              <a href="https://shop.manoapp.com/" className="text-lime-500">
+                {" "}
+                Mano
+              </a>{" "}
+              A company redefining the conventional grocery shopping experience
+              by offering you an ultra fast, convenient and reliable grocery
+              delivery service.
+            </p>
+
+            {/* <ul className="list-disc lg:ml-10 my-5">
+              <li className="lists">
+                Integrated Firebase storage and authentication
+              </li>
+              <li className="lists">
+                Integrated Google Analytics for measuring Traction
+              </li>
+              <li className="lists">
+                Integrated Progressive Web App technology.
+              </li>
+            </ul> */}
+
+            <h4 className="text-center text-2xl mt-16 mb-3 font-semibold">
+              SCREENSHOTS
+            </h4>
+            <div className="flex items-center flex-wrap mt-10">
+              <div className="  w-full lg:w-1/2  lg:h-[300px] relative p-2 pb-0">
+                <Image
+                  src={manoScreenshot}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+              <div className="  w-full lg:w-1/2  lg:mt-0 mt-3 lg:h-[300px] relative p-2 pb-0">
+                <Image
+                  src={manoScreenshot2}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            {/* <div className="">
+              <ProjectsLink
+                githubUrl="https://github.com/chinnaji/grupr"
+                projectUrl="http://grupr.nl"
+              />
+            </div> */}
           </div>
         </div>
       </div>

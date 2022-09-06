@@ -26,10 +26,10 @@ function Navbar() {
     //   title: "Blog",
     //   path: "/blog",
     // },
-    {
-      title: "Contact",
-      path: "/#contact",
-    },
+    // {
+    //   title: "Contact",
+    //   path: "/#contact",
+    // },
   ];
 
   const [isSidebar, setIsSidebar] = useState(false);

@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About";
 import Contact from "./Contact";
+import Experience from "./Experience";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import TechStacks from "./TechStacks";
@@ -10,10 +11,9 @@ function MainHeroPage() {
     <main className="overflow-x-hidden h-full">
       <Hero />
       <Projects />
-      <TechStacks />
-      <About />
-
-      <Contact />
+      <Experience />
+      <TechStacks /> <About />
+      {/* <Contact /> */}
     </main>
   );
 }

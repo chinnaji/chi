@@ -5,6 +5,7 @@ import androidpillNew from "../../images/androidpill.png";
 import moviemon from "../../images/moviemon.png";
 import pikchaw from "../../images/pikchaw.png";
 import grupr from "../../images/grupr.png";
+import mano from "../../images/mano.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,6 +43,11 @@ function Projects() {
       img: grupr,
       url: "/projects/#grupr",
       text: "Grupr",
+    },
+    {
+      img: mano,
+      url: "/projects/#mano",
+      text: "Mano",
     },
     {
       img: androidpillNew,

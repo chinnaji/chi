@@ -13,12 +13,12 @@ function Footer() {
     <footer className="w-full border-t dark:border-t-zinc-500  bg-zinc-50 dark:bg-dark-600 text-zinc-600 dark:text-zinc-100">
       <section className="px-2 py-8 max-w-5xl mx-auto ">
         <div className="flex justify-center items-center w-full">
-          <a href="https://twitter.com/ChibuikeNnaji100">
+          <a href="https://twitter.com/chinnaji0">
             <BsTwitter className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>
-          <a href="https://youtube.com/c/Androidpill">
+          {/* <a href="https://youtube.com/c/Androidpill">
             <BsYoutube className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
-          </a>
+          </a> */}
           <a href="https://github.com/chinnaji">
             <BsGithub className="md:text-3xl text-2xl hover:text-lime-500  transition-all ease-in-out mx-3" />
           </a>

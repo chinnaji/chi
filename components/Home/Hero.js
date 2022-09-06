@@ -46,12 +46,12 @@ function Hero() {
 
         {/* social icons */}
         <div className="text-2xl mt-12 flex justify-center gap-x-7 items-center w-full">
-          <a className="socials" href="https://twitter.com/ChibuikeNnaji100">
+          <a className="socials" href="https://twitter.com/chinnaji0">
             <BsTwitter className=" hover:text-lime-500  transition-all ease-in-out" />
           </a>
-          <a className="socials" href="https://youtube.com/c/Androidpill">
+          {/* <a className="socials" href="https://youtube.com/c/Androidpill">
             <BsYoutube className=" hover:text-lime-500  transition-all ease-in-out" />
-          </a>
+          </a> */}
           <a className="socials" href="https://github.com/chinnaji">
             <BsGithub className=" hover:text-lime-500  transition-all ease-in-out" />
           </a>
