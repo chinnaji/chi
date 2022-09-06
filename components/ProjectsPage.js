@@ -208,11 +208,11 @@ function ProjectsPage() {
               </li>
               {/* <li className="lists">Used the wpGraphql plugin in making declarative queries.</li> */}
               <li className="lists">
-                Integrated Google Analytics for measuring Traction
+                Utilized Google Analytics for measuring Traction
               </li>
-              <li className="lists">
+              {/* <li className="lists">
                 Integrated Progressive Web App technology.
-              </li>
+              </li> */}
             </ul>
 
             <h4 className="text-center text-2xl mt-16 mb-3 font-semibold">
