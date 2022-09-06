@@ -21,11 +21,11 @@ function Experience() {
         </div>
         <div className="md:w-[80%] w-full">
           <h3 className="text-3xl font-semibold ">Justweb Technologies</h3>
-          <p className="text-sm mt-3">A software Development Company</p>
+          {/* <p className="text-sm mt-3">A software Development Company</p> */}
 
           <p className="mt-2 mb-5">
             {" "}
-            <b>ROLE: </b> Front-end Developer
+            <b> Front-end Developer </b>
           </p>
           <ul className="font-light  list-disc pl-3	">
             <li>
