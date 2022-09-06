@@ -5,7 +5,7 @@ function Experience() {
   return (
     <section
       id="about"
-      className={` w-full max-w-[1100px] mx-auto  bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-20`}
+      className={` px-5 w-full max-w-[1100px] mx-auto  bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-20`}
     >
       <h2 className="title text-center  font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl  lg:mt-0 mt-4 mb-16 dark:text-zinc-100">
         My Experience
@@ -27,7 +27,7 @@ function Experience() {
             {" "}
             <b>ROLE: </b> Front-end Developer
           </p>
-          <ul className="font-light  list-disc	">
+          <ul className="font-light  list-disc pl-3	">
             <li>
               Responsible for Translating UI wireframes and mockups to visual
               elements of the application.
