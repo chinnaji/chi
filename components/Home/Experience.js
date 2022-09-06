@@ -4,7 +4,7 @@ import justweb_logo from "../../images/justweb.png";
 function Experience() {
   return (
     <section
-      id="about"
+      //   id="about"
       className={` px-5 w-full max-w-[1100px] mx-auto  bg-zinc-50 dark:bg-dark-600 relative text-zinc-50 md:mt-16 md:py-20`}
     >
       <h2 className="title text-center  font-semibold lg:font-semibold text-zinc-600 text-4xl lg:text-5xl  lg:mt-0 mt-4 mb-16 dark:text-zinc-100">
