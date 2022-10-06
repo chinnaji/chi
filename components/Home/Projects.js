@@ -44,21 +44,21 @@ function Projects() {
       url: "/projects/#grupr",
       text: "Grupr",
     },
-    {
-      img: mano,
-      url: "/projects/#mano",
-      text: "Mano",
-    },
+    // {
+    //   img: mano,
+    //   url: "/projects/#mano",
+    //   text: "Mano",
+    // },
     {
       img: androidpillNew,
       url: "/projects/#androidpill",
       text: "Androidpill",
     },
-    {
-      img: shodex_garden,
-      url: "/projects/#shodex_garden",
-      text: "Shodex Garden",
-    },
+    // {
+    //   img: shodex_garden,
+    //   url: "/projects/#shodex_garden",
+    //   text: "Shodex Garden",
+    // },
 
     {
       img: pikchaw,
@@ -74,7 +74,7 @@ function Projects() {
       <div className="px-2 py-8 max-w-6xl	gay-y-5 mx-auto flex flex-wrap  ">
         <div className="w-full text-center pt-7 mb-10">
           <h2 className="lg:text-5xl text-4xl" ref={title}>
-            Featured Projects
+            Featured Works
           </h2>
         </div>
         {projects.map((work, index) => (

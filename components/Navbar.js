@@ -19,8 +19,8 @@ function Navbar() {
       path: "/#about",
     },
     {
-      title: "Projects",
-      path: "/projects",
+      title: "My Works",
+      path: "/works",
     },
     // {
     //   title: "Blog",
