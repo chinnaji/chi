@@ -10,9 +10,10 @@ function MainHeroPage() {
   return (
     <main className="overflow-x-hidden h-full">
       <Hero />
+      <About />
       <Projects />
       <Experience />
-      <TechStacks /> <About />
+      <TechStacks />
       {/* <Contact /> */}
     </main>
   );

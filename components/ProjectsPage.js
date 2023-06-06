@@ -65,114 +65,6 @@ function ProjectsPage() {
           Recent Projects
         </h2>
       </div>
-      {/* Androidpill */}
-      <div className="max-w-6xl mx-auto my-12" id="androidpill">
-        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
-          <div className="w-full lg:w-1/2 mx-auto">
-            <div className="project-img  w-full  lg:h-full relative p-2 pb-0">
-              <Image
-                src={androidpill}
-                priority={true}
-                loading="eager"
-                alt="projects screen shots"
-                className="rounded "
-                placeholder="blur"
-              />
-              <div className=" rounded filter-none w-9/12 lg:h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
-                {" "}
-              </div>{" "}
-            </div>
-          </div>
-          <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">
-              1. Androidpill
-            </h2>
-            <p>
-              <a href="http://androidpill.com" className="text-lime-500">
-                {" "}
-                Androidpill
-              </a>{" "}
-              is my personal gaming blog. I had to move to headless CMS for
-              better customizability and i have no regrets. i built it using
-              Next Js, Tailwind and Graph Ql.
-            </p>
-
-            <ul className="list-disc lg:ml-10 my-5">
-              <li className="lists">
-                {/* Built using Next Js, Wordpress, Graphql, Tailwind css */}
-                Optimized SEO for pages using Next Js Static Site Generation
-                (SSG) Technology.
-              </li>
-              {/* <li className="lists">Used the wpGraphql plugin in making declarative queries.</li> */}
-              <li className="lists">
-                Utilized Google analytics and Google console for measuring
-                traffic and tracking performance issues.
-              </li>
-              <li className="lists">
-                Integrated Progressive Web App technology.
-              </li>
-            </ul>
-
-            <h2 className="text-3xl text-center font-medium mt-b mb-5 mt-10 text-zinc-100">
-              <i> Google Analytics Report</i>
-            </h2>
-
-            <div
-              className="flex items-center flex-wrap my-10"
-              id="androidpill_metrics"
-            >
-              <div className="  w-full lg:w-1/2  lg:h-[250px] relative p-2 pb-0">
-                <Link href="/androidpill_metrics1.png" passHref>
-                  <Image
-                    src={androidpill_metrics1}
-                    //   layout="fill"
-                    loading="eager"
-                    alt="projects screen shots"
-                    className="rounded cursor-pointer"
-                    placeholder="blur "
-                  />
-                </Link>
-              </div>
-
-              <div className="  w-full lg:w-1/2   lg:mt-0  md:-mt-0 mt-7 lg:h-[250px]  relative p-2 pb-0">
-                <Link href="/androidpill_metrics2.png" passHref>
-                  <Image
-                    src={androidpill_metrics2}
-                    //   layout="fill"
-                    loading="eager"
-                    alt="projects screen shots"
-                    className="rounded cursor-pointer"
-                    placeholder="blur"
-                  />
-                </Link>
-              </div>
-
-              <h2 className="text-3xl w-full text-center font-medium mt-24 mb-5 text-zinc-100">
-                <i> SEO Metrics Audit</i>
-              </h2>
-              <div className="  w-full  mx-auto mt-2  overflow-hidden  relative p-2 pb-0">
-                <Link href="/androidpill_seo.png" passHref>
-                  <Image
-                    src={androidpill_seo}
-                    //   layout="fill"
-                    loading="eager"
-                    alt="projects screen shots"
-                    className="rounded cursor-pointer"
-                    placeholder="blur"
-                  />
-                </Link>
-              </div>
-            </div>
-
-            <div className="">
-              <ProjectsLink
-                githubUrl="https://github.com/chinnaji/Androidpill"
-                projectUrl="https://www.androidpill.com"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
       {/* grupr */}
       <div className="max-w-6xl mx-auto my-12" id="grupr">
         <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
@@ -192,7 +84,7 @@ function ProjectsPage() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">2. Grupr.nl</h2>
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">1. Grupr.nl</h2>
             <p>
               <a href="http://grupr.nl" className="text-lime-500">
                 {" "}
@@ -378,7 +270,7 @@ function ProjectsPage() {
             </div>
           </div>
           <div className="w-full  p-2">
-            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">4. Pikchaw</h2>
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">2. Pikchaw</h2>
             <p>
               Ususally when designing, I tend to use images and finding the
               right images can be a pain in the a** 😫, Introducing{" "}
@@ -418,6 +310,81 @@ function ProjectsPage() {
               <ProjectsLink
                 githubUrl="https://github.com/chinnaji/pikchaw"
                 projectUrl="https://pikchaw.vercel.app"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* mobigoat */}
+      <div className="max-w-6xl mx-auto my-12" id="grupr">
+        <div className={`w-full border-b dark:border-b-zinc-500 py-10 my-10`}>
+          <div className="w-full lg:w-1/2 mx-auto">
+            <div className="  w-full  lg:h-full relative p-2 pb-0">
+              <Image
+                src={androidpill}
+                priority={true}
+                loading="eager"
+                alt="projects screen shots"
+                className="rounded "
+                placeholder="blur"
+              />
+              <div className=" rounded filter-none w-9/12 lg:h-full p-2 border-2 border-lime-600 absolute right-0 inset-y-0 border-b-0  border-l-0 ">
+                {" "}
+              </div>{" "}
+            </div>
+          </div>
+          <div className="w-full  p-2">
+            <h2 className="text-3xl mb-4 mt-10 text-zinc-100">3. Mobigaot</h2>
+            <p>
+              <a href="http://mobigoat.com.ng" className="text-lime-500">
+                {" "}
+                Moboigoat
+              </a>{" "}
+              A gaming blog with over 1,000 monthly visitors.
+            </p>
+
+            {/* <h4 className="text-center text-2xl mt-16 mb-3 font-semibold">
+              SCREENSHOTS
+            </h4> */}
+            {/* <div className="flex items-center flex-wrap mt-10">
+              <div className="  w-full lg:w-1/2  lg:h-[300px] relative p-2 pb-0">
+                <Image
+                  src={gruprScreenshot}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+              <div className="  w-full lg:w-1/2  lg:mt-0 mt-3 lg:h-[300px] relative p-2 pb-0">
+                <Image
+                  src={gruprScreenshot2}
+                  //   layout="fill"
+                  loading="eager"
+                  alt="projects screen shots"
+                  className="rounded "
+                  placeholder="blur"
+                />
+              </div>
+            </div> */}
+
+            <ul className="list-disc lg:ml-10 my-5">
+              <li className="lists">
+                Built Custom Wordpress Theme and Custom Plugins
+              </li>
+              {/* <li className="lists">Used the wpGraphql plugin in making declarative queries.</li> */}
+              <li className="lists">
+                Utilized Google Analytics for measuring Traction
+              </li>
+              {/* <li className="lists">
+                Integrated Progressive Web App technology.
+              </li> */}
+            </ul>
+            <div className="">
+              <ProjectsLink
+                // githubUrl="https://github.com/chinnaji/grupr"
+                projectUrl="http://grupr.nl"
               />
             </div>
           </div>

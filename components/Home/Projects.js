@@ -41,18 +41,18 @@ function Projects() {
   const projects = [
     {
       img: grupr,
-      url: "/projects/#grupr",
+      url: "/works/#grupr",
       text: "Grupr",
     },
     // {
     //   img: mano,
-    //   url: "/projects/#mano",
+    //   url: "/works/#mano",
     //   text: "Mano",
     // },
     {
       img: androidpillNew,
-      url: "/projects/#androidpill",
-      text: "Androidpill",
+      url: "/projects/#mobigoat",
+      text: "Mobigoat",
     },
     // {
     //   img: shodex_garden,

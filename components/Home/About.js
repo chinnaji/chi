@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import me from "../../images/me2.jpg";
+import me from "../../images/chibuike_nnaji.jpg";
 function About() {
   const title = React.useRef(null);
 
@@ -91,10 +91,7 @@ function About() {
               Check out my resume for more 👇
             </p>
             <div>
-              <a
-                href="https://drive.google.com/file/d/1BwDnNfmFxKT80cHYKqzXL4ws41a5N2Aw/view?usp=sharing"
-                target="blank"
-              >
+              <a href="https://bit.ly/3WVbs2a" target="blank">
                 <button className=" mb-12 mt-5 mx-auto lg:mx-0 flex px-7 text-sm py-4  my-2 lg:my-12 bg-lime-500 hover:bg-lime-600 cursor-pointer rounded transition duration-100 ease-out hover:ease-in">
                   <span className="mr-2 font-semibold">Download Resume</span>
                   {/* <span>
