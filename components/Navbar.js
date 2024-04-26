@@ -18,10 +18,10 @@ function Navbar() {
       title: "About",
       path: "/#about",
     },
-    {
-      title: "My Works",
-      path: "/works",
-    },
+    // {
+    //   title: "My Works",
+    //   path: "/works",
+    // },
     // {
     //   title: "Blog",
     //   path: "/blog",
