@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import justweb_logo from "../../images/justweb.png";
+import algg from "../../images/algg.png";
 function Experience() {
   return (
     <section
@@ -40,6 +41,36 @@ function Experience() {
               Worked with various teams and stakeholders to create and maintain
               digital experiences for multiple company products.
             </li>
+          </ul>
+        </div>
+      </div>
+      <div className="flex  flex-wrap mt-16 max-w-2xl mx-auto w-full">
+        <div className="md:w-[20%] w-full">
+          <Image src={algg} alt="justweb_logos" width={120} height={30} />
+        </div>
+        <div className="md:w-[80%] w-full">
+          <h3 className="text-3xl font-semibold ">Algoralign</h3>
+          {/* <p className="text-sm mt-3">A software Development Company</p> */}
+
+          <p className="mt-2 mb-5">
+            {" "}
+            <b> Front-end Developer </b>
+          </p>
+          <ul className="font-light  list-disc pl-3	">
+            <li>
+              Spearheaded the redesign of the user interface, leveraging
+              cutting-edge technologies such as React.js to enhance user
+              interaction and streamline navigation.
+            </li>
+            <li>
+              Implemented responsive design principles to ensure seamless
+              functionality across various devices, resulting in better increase
+              in user engagement.
+            </li>
+            {/* <li>
+              Worked with various teams and stakeholders to create and maintain
+              digital experiences for multiple company products.
+            </li> */}
           </ul>
         </div>
       </div>

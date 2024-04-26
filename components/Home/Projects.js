@@ -5,7 +5,9 @@ import androidpillNew from "../../images/androidpill.png";
 import moviemon from "../../images/moviemon.png";
 import pikchaw from "../../images/pikchaw.png";
 import grupr from "../../images/grupr.png";
+import alg from "../../images/image 2535.png";
 import mano from "../../images/mano.png";
+import toluh from "../../images/toluh.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,32 +41,42 @@ function Projects() {
     animate();
   }, []);
   const projects = [
+    // {
+    //   img: grupr,
+    //   url: "/works/#grupr",
+    //   text: "Grupr",
+    // },
     {
-      img: grupr,
-      url: "/works/#grupr",
-      text: "Grupr",
+      img: alg,
+      url: "https://algoralign.com/",
+      text: "Algoralign",
+    },
+    {
+      img: toluh,
+      url: "https://toluh.com/",
+      text: "Toluh.com",
     },
     // {
     //   img: mano,
     //   url: "/works/#mano",
     //   text: "Mano",
     // },
-    {
-      img: androidpillNew,
-      url: "/projects/#mobigoat",
-      text: "Mobigoat",
-    },
+    // {
+    //   img: androidpillNew,
+    //   url: "/projects/#mobigoat",
+    //   text: "Mobigoat",
+    // },
     // {
     //   img: shodex_garden,
     //   url: "/projects/#shodex_garden",
     //   text: "Shodex Garden",
     // },
 
-    {
-      img: pikchaw,
-      url: "/projects/#pikchaw",
-      text: "Pikchaw",
-    },
+    // {
+    //   img: pikchaw,
+    //   url: "/projects/#pikchaw",
+    //   text: "Pikchaw",
+    // },
   ];
   return (
     <section
@@ -83,7 +95,7 @@ function Projects() {
             key={index}
           >
             <section className="projects cursor-pointer my-10">
-              <Link href={work.url} passHref>
+              <a href={work.url} passHref>
                 <a className="rounded-lg   w-fit  relative hover:text-lime-500 ">
                   <Image
                     src={work.img}
@@ -100,7 +112,7 @@ function Projects() {
                     {index + 1}. {work.text}
                   </h3>
                 </a>
-              </Link>
+              </a>
             </section>
           </div>
         ))}
