@@ -9,6 +9,7 @@ import alg from "../../images/image 2535.png";
 import mano from "../../images/mano.png";
 import toluh from "../../images/toluh.png";
 import kicks from "../../images/kicks24.png";
+import rawlabel from "../../images/rawlabel.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -61,6 +62,11 @@ function Projects() {
       img: kicks,
       url: "https://kicks24.com.ng/",
       text: "kicks24",
+    },
+    {
+      img: rawlabel,
+      url: "https://rawlabel.vercel.app/",
+      text: "rawlabel",
     },
     // {
     //   img: mano,
