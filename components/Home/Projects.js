@@ -8,6 +8,7 @@ import grupr from "../../images/grupr.png";
 import alg from "../../images/image 2535.png";
 import mano from "../../images/mano.png";
 import toluh from "../../images/toluh.png";
+import kicks from "../../images/kicks24.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -55,6 +56,11 @@ function Projects() {
       img: toluh,
       url: "https://toluh.com/",
       text: "Toluh.com",
+    },
+    {
+      img: kicks,
+      url: "https://kicks24.com.ng/",
+      text: "kicks24",
     },
     // {
     //   img: mano,
