@@ -87,9 +87,7 @@ function About() {
               I love exploring new technologies and staying on top of latest
               trends. I love Javascript....obviously 🤪.
             </p>
-            <p className="mt-3 md:text-left text-center">
-              Check out my resume for more 👇
-            </p>
+           
        
           </div>
         </div>
